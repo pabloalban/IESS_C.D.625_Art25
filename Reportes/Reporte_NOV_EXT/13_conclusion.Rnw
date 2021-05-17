@@ -1,0 +1,48 @@
+%---------------------------------------------------------------------------------------------------
+\chapter{Conclusiones}
+\label{chp_conclusion}
+
+%---------------------------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------------------
+\section{Conclusiones}
+\label{chp_conclusion:conclusiones}
+Del presente estudio, se obtienen las siguientes conclusiones:
+\begin{enumerate}[itemsep=1mm, topsep=0pt]
+
+\item Considerando el listado de posibles beneficiarios entregado por la Asociación de Jubilados y Veteranos de la Cemento Nacional, la información proporcionada por la empresa Holcim Ecuador S.A. y la historia laboral de los posibles beneficiarios, se constató que de los 319 posibles beneficiarios de la sentencia, 151 ex trabajadores cumplen con al menos 300 imposiciones aportadas dentro de la industria del cemento durante el período 2000 a 2010, sin embargo, 42 tienen fecha de cese anterior a la publicación de la Ley de Jubilación Especial de los Trabajadores de la Industria del Cemento (21 de marzo de 1989); razón por la cual, la autoridad judicial deberá analizar y determinar, si estos (42) ex trabajadores tienen derecho a esta jubilación especial.
+
+\item Mediante la aplicación del considerando DÉCIMO SEXTO del recurso de Amparo Constitucional N° 916-07-RA y considerando la información de historia laboral del IESS, proporcionada por la Dirección Nacional de Afiliación y Cobertura, la Dirección del Sistema de Pensiones verificó que 136 ex trabajadores no cumplieron con al menos 300 imposiciones en la industria del cemento, y que adicionalmente 32 personas fallecieron antes del año 2000, fecha del inicio del pago de la sentencia.
+
+\item Con la aplicación de los considerandos DÉCIMO QUINTA y DÉCIMO SEXTO del recurso de Amparo Constitucional N° 916-07-RA, y sobre la base de la información del último sueldo nominal excluyendo conceptos de bonificaciones y valores extras, proporcionada por la empresa Holcim Ecuador S.A. y la Dirección Nacional de Afiliación y Cobertura, se obtienen los valores por las pensiones de 151 beneficiarios de la Jubilación Especial de los Trabajadores de la Industria del Cemento entre el período marzo 2000 a septiembre de 2010, por un monto de USD 8.127.332,66 por pensiones no percibidas y USD 2.245.357,26 por concepto de intereses; con un total de beneficios, que haciende a los USD 10.372.689,91 (diez millones trescientos setenta y dos mil seis cientos ochenta y nueve, 91/100).
+
+\item La empresa cementera Holcim Ecuador S.A. remitió al IESS la información certificada del último sueldo únicamente de 131 personas, de los cuales en 41 cédulas no se contó con el valor del último sueldo (valor 0), así como, 20 personas no formaban parte de la lista emitida por la Asociación de Jubilados y Veteranos de la Cemento Nacional, razón por la cual y de considerarlo oportuno por parte de la autoridad judicial, disponer a la empresa Holcim Ecuador S.A. la entrega certificada de la información del último sueldo de los beneficiarios constantes en la sentencia.
+
+\item Realizado el cruce de información entre los 151 beneficiarios de la sentencia detallados en la tabla 5.1, se constató que los mismos perciben en la actualidad, o percibieron una jubilación del Seguro General (de vejez, invalidez, discapacidad, o especial reducida), otorgada por el IESS y adicionalmente muchos de ellos al fallecer, devinieron en pensiones de viudedad y orfandad, motivo por el cual la autoridad judicial, deberá analizar y determinar la procedencia de pago por concepto de la jubilación especial de la industria del cemento a personas que recibieron los beneficios económicos por concepto de jubilaciones otorgadas por parte del Instituto Ecuatoriano de Seguridad Social.
+
+
+\end{enumerate}
+
+%\newpage
+
+Quito, 19 de marzo de 2021 \\
+
+\vspace{0.5cm}
+Atentamente,
+\vspace{0.5cm}
+%--------------------------------------------------------------------------------------------------
+
+% 
+% \begin{figure}[H]
+% 	\centering
+% 		\includegraphics[scale=0.28]{graficos/firma_actuario.png}
+% 	\end{figure}
+	
+	
+\vspace{3.5cm}
+\begin{center}
+\textbf{Ramiro Vega Suárez, Lic.} \\
+Director Actuarial, de Investigación y Estadística \\
+Instituto Ecuatoriano de Seguridad Social
+\end{center}
+
+

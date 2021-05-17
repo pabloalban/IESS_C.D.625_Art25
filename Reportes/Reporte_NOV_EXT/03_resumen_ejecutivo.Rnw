@@ -1,0 +1,21 @@
+%---------------------------------------------------------------------------------------------------
+\chapter{Resumen ejecutivo}
+\label{chp_res_ejec}
+%---------------------------------------------------------------------------------------------------
+\section{Definición clara del objeto del estudio}
+\label{chp_res_ejec:objeto}
+
+Con la finalidad de dar cumplimento de disposiciones judiciales emitidas dentro del juicio No. 09332-2019-09723 devenida del caso N°. 0013-16-IS que refiere a la Acción de Incumplimiento de la sentencia constitucional de la Resolución N°. 0916-07-RA del 15-12-2010, seguida por Jubilados de la Cemento Nacional, se realiza el presente estudio, el cual tiene como finalidad determinar el valor individual correspondiente a la Jubilación Especial de los Trabajadores de la industria del Cemento, siguiendo el procedimiento establecido en los considerandos DÉCIMO QUINTA y DÉCIMO SEXTO del recurso de Amparo Constitucional N° 916-07-RA.
+
+Del presente estudio se obtienen las siguientes conclusiones:
+\begin{enumerate}[itemsep=1mm, topsep=0pt]
+
+\item Utilizando los considerandos DÉCIMO QUINTA y DÉCIMO SEXTO del recurso de Amparo Constitucional N° 916-07-RA, se obtiene los valores por las pensiones de 151 beneficiarios de la Jubilación Especial de los Trabajadores de la Industria del Cemento entre el período marzo 2000 a septiembre de 2010 son USD \Sexpr{capital} en pensiones no percibidas y USD \Sexpr{intereses} en intereses, lo que en total suman USD \Sexpr{liquidacion}.
+
+
+\item Solamente 151 extrabajadores cumplen con más de 300 imposiciones de la industria del cemento y debieron percibir esta pensión en el período 2000 a 2010, de los cuales 42 tienen fecha de cese antes de la publicación de la Ley de la Jubilación Especial de los Trabajadores de la Industria del Cemento (21 de marzo de 1989); en tal caso el juez pertinente determinará , si estos extrabajadores tienen derecho a esta jubilación especial.
+
+\item Se excluyeron de este beneficio a 168 extrabajadores , de los cuales 32 fallecieron antes del año 2000 y 136 no cumplen con al menos 300 imposiciones en la industria del cemento, según lo certifica la Dirección del Sistema de Pensiones del IESS.
+
+\end{enumerate}
+

@@ -1,0 +1,358 @@
+% Reportes técnicos --------------------------------------------------------------------------------
+
+% Carga de paquetes --------------------------------------------------------------------------------
+\usepackage[explicit]{titlesec}
+\usepackage{tocbibind}
+\usepackage{ragged2e}
+\usepackage[spanish,es-tabla]{babel}            
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} % Libertine
+\usepackage{libertine} % Libertine
+\usepackage[autostyle,spanish=mexican]{csquotes}
+% \usepackage{tgtermes} % Times New Roman
+% \usepackage{tgpagella} % Pagella
+% \usepackage{lmodern} % Computer modern
+
+% enumerados en listas
+\usepackage[shortlabels]{enumitem}
+
+\usepackage{pdflscape}	
+\usepackage{afterpage}	
+\usepackage{dirtree}
+\usepackage{graphicx}
+\usepackage[top=2cm, bottom=3cm, left=3cm, right=2cm, includeheadfoot]{geometry}
+
+\usepackage{dsfont}
+\usepackage{mathtools}
+\usepackage{mathrsfs}
+\usepackage[none]{hyphenat}
+
+% AMS Math + AMS symbols
+\usepackage{amsmath}                   
+\usepackage{amssymb}        
+\usepackage{amsthm}
+% \usepackage{amsfonts}
+\usepackage[cal=dutchcal]{mathalfa}
+\usepackage[figuresright]{rotating}
+
+% Sideways of figures & tables 
+\usepackage{setspace}
+\usepackage{booktabs}
+
+% Símbolos especiales para textos de computacion
+\usepackage{url}
+\usepackage[gen]{eurosym}
+\usepackage[below]{placeins}
+
+% Símbolos actuariales
+\usepackage{actuarialangle}
+\usepackage{actuarialsymbol}
+
+% Símbolos matemáticos
+\usepackage{bbm}
+
+% Text Companion fonts
+\usepackage{textcomp}
+
+% Escribir simbolos especiales Ej: o/oo
+\usepackage{gensymb}
+
+% Escribir simbolos especiales Ej: o/oo
+\usepackage{enumitem} 
+
+% Para personalizar los labels de items en listas
+\usepackage{multirow}
+
+% \usepackage[belowskip=-10pt,aboveskip=5pt]{caption}
+\usepackage[belowskip=0pt,aboveskip=0pt]{caption}
+
+\usepackage{draftwatermark} % para poner watermark
+%\usepackage[some]{background} % para imágenes como marca de agua en ciertas páginas
+\usepackage[
+pages=some,
+contents={},
+opacity=1,
+scale=1.5,
+color=blue!90
+]{background}
+\usepackage{ifthen}
+
+% Colocar figuras en la posición correcta
+\usepackage{float}
+
+% Dar formato a fechas
+\usepackage{datetime}
+
+% Hypervínculos en PDF
+\usepackage[colorlinks = true, linkcolor = iess_blue, urlcolor = iess_blue, citecolor = iess_blue, 
+  linktoc = page]{hyperref}
+\usepackage{memhfixc}
+
+% Incluir docuemntos en formato pdf
+\usepackage{pdfpages}
+
+% Bibliografía
+\usepackage[style=numeric-verb, bibstyle=numeric, citestyle=numeric, backend=biber, natbib=true, 
+  maxnames=10, maxcitenames=2]{biblatex}
+
+\usepackage{tikz}
+\usetikzlibrary{cd,babel,automata,matrix,positioning,decorations.pathreplacing,arrows}
+
+% Tablas grandes
+\usepackage{longtable}
+\usepackage{ctable}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage{titleps}
+
+% % Píe de notas en las tablas
+% \usepackage{threeparttable}
+
+%Necesario para paquete stargazer
+\usepackage{dcolumn}
+
+\usepackage{framed, xcolor}
+%\definecolor{shadecolor}{gray}{0.81}
+
+\usepackage{icomma}
+
+\definecolor{shadecolor}{rgb}{0.91, 0.84, 0.42}
+
+\spanishdecimal{,}
+
+% Citas legales ------------------------------------------------------------------------------------
+\newbibmacro{legalcite}{
+  \textit{\printfield{shorttitle}}\,
+  [\printtext[bibhyperref]{\printfield{labelnumber}}]
+}
+
+\DeclareCiteCommand{\legalcite}
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}
+   \usebibmacro{legalcite}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}
+}
+
+\newbibmacro{estcite}{
+  \textit{\printfield{shorttitle}}\,
+  [\printtext[bibhyperref]{\printfield{labelnumber}}]
+}
+  
+\DeclareCiteCommand{\estcite}
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}
+   \usebibmacro{estcite}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}
+}
+
+% Colours ------------------------------------------------------------------------------------------
+\definecolor{iess_blue}{RGB}{ 0, 63, 138 }
+\definecolor{iess_green}{RGB}{ 0, 116, 53 }
+\definecolor{cover_blue}{RGB}{ 216, 246, 255 }
+
+% Page style ---------------------------------------------------------------------------------------
+\setlength{\headsep}{1.5cm}
+
+\newpagestyle{repstyle}{
+\setfoot[\thepage][][]{}{}{\thepage}
+\sethead[\scriptsize{\thechapter~\chaptertitle}]
+[]
+[\scriptsize{Dirección Actuarial, de Investigación y Estadística \vspace{-6cm}\includegraphics[width=.03\textwidth]{graficos/logo_iess_azul.png}}]
+{\scriptsize{\vspace{-6cm}\includegraphics[width=.03\textwidth]{graficos/logo_iess_azul.png} Dirección Actuarial, de Investigación y Estadística}}
+{}
+{\scriptsize{\thechapter~\chaptertitle}}
+\setheadrule{0.4pt}
+}
+% Pies de pagina sin marcador
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+\newpagestyle{repheadstyle}{
+\setfoot[\thepage][][]{}{}{\thepage}
+\sethead[\scriptsize{\chaptertitle}]
+[]
+[\scriptsize{Instituto Ecuatoriano de Seguridad Social \vspace{-6cm}\includegraphics[width=.03\textwidth]{graficos/logo_iess_azul.png}}]
+{\scriptsize{\vspace{-6cm}\includegraphics[width=.03\textwidth]{graficos/logo_iess_azul.png} Dirección Actuarial, de Investigación y Estadística }}
+{}
+{\scriptsize{\chaptertitle}}
+\setheadrule{0.4pt}
+}
+
+\newpagestyle{repchapstyle}{
+\setfoot[\thepage][][]{}{}{\thepage}
+\sethead[][][]{}{}{}
+}
+
+\assignpagestyle{\chapter}{repchapstyle}
+
+% Index generation ---------------------------------------------------------------------------------
+\makeindex
+
+
+% Estilo para capítulos y secciones ----------------------------------------------------------------
+\titleformat{\chapter}
+{\normalfont}
+{}
+{0cm}
+{\filright\fontsize{22}{22}\bfseries\selectfont{\textcolor{iess_blue}{\thechapter\hspace{4mm}#1}}} 
+\titlespacing{\chapter}{0.0cm}{0.0\baselineskip}{3.0\baselineskip}
+
+\titleformat{name = \chapter, numberless}
+{\normalfont}
+{}
+{0cm}
+{\filright\fontsize{22}{22}\bfseries\selectfont{\textcolor{iess_blue}{#1}}}
+\titlespacing{\chapter}{0.0cm}{0.0\baselineskip}{3.0\baselineskip}
+
+\titleformat{\section}
+{\normalfont}
+{}
+{0cm}
+{\filright\fontsize{16}{21}\bfseries\selectfont{\textcolor{iess_blue}{\thesection\hspace{4mm}#1}}}
+\titlespacing{\section}{0.0cm}{0.0\baselineskip}{0.0\baselineskip}
+
+\titleformat{\subsection}
+{\normalfont}
+{}
+{0cm}
+{\filright\fontsize{14}{18}\bfseries\selectfont{\textcolor{iess_blue}{\thesubsection\hspace{4mm}#1}}}
+\titlespacing{\subsection}{0.0cm}{0.0\baselineskip}{0.0\baselineskip}
+
+\titleformat{\subsubsection}
+{\normalfont}
+{}
+{0cm}
+{\fontsize{12}{16}\bfseries\selectfont{\textcolor{iess_blue}{\thesubsubsection\hspace{4mm}#1}}}
+\titlespacing{\subsubsection}{0.0cm}{0.0\baselineskip}{0.0\baselineskip}
+
+
+\titleformat{\paragraph}
+{\normalfont}
+{}
+{0cm}
+{\fontsize{12}{16}\bfseries\selectfont{\textcolor{iess_blue}{\theparagraph\hspace{4mm}#1}}}
+\titlespacing{\paragraph}{0.0cm}{0.0\baselineskip}{0.0\baselineskip}
+
+\setcounter{secnumdepth}{4} % nivel de númeración hasta 4
+
+% \titleformat{\paragraph}
+% {\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+% \titlespacing*{\paragraph}
+% {0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+% Table of contents style --------------------------------------------------------------------------
+% \settocdepth{subsection}
+% \setsecnumdepth{subsection}
+% \maxsecnumdepth{subsection}
+% \maxtocdepth{subsection}
+
+% Commands operators -------------------------------------------------------------------------------
+\newcommand{\expect}{\operatorname{\mathbb{E}}\expectarg}
+	\DeclarePairedDelimiterX{\expectarg}[1]{[}{]}{%
+		\ifnum\currentgrouptype=16 \else\begingroup\fi
+		\activatebar#1
+		\ifnum\currentgrouptype=16 \else\endgroup\fi
+}
+
+\newcommand{\var}{\operatorname{\mathbb{V}}\vararg}
+\DeclarePairedDelimiterX{\vararg}[1]{[}{]}{%
+	\ifnum\currentgrouptype=16 \else\begingroup\fi
+	\activatebar#1
+	\ifnum\currentgrouptype=16 \else\endgroup\fi
+}
+
+\newcommand{\cov}{\operatorname{Cov}\covarg}
+\DeclarePairedDelimiterX{\covarg}[1]{[}{]}{%
+	\ifnum\currentgrouptype=16 \else\begingroup\fi
+	\activatebar#1
+	\ifnum\currentgrouptype=16 \else\endgroup\fibb
+}
+
+\addto\captionsspanish{\renewcommand*\contentsname{Contenidos}}
+\addto\captionsspanish{\renewcommand*\listfigurename{Figuras}}
+\addto\captionsspanish{\renewcommand*\listtablename{Tablas}}
+
+% \renewcommand{\appendixpagename}{\sffamily\bfseries{Anexos}}
+% \renewcommand{\appendixtocname}{Anexos}
+\renewcommand{\appendixname}{Anexo}
+\renewcommand{\chaptername}{Capítulo}
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\labelitemi}{$\bullet$}
+\renewcommand{\labelitemii}{$\cdot$}
+
+\DeclareMathOperator{\Liminf}{lim\,inf\,}
+\DeclareMathOperator{\sign}{sign}
+\DeclareMathOperator{\argmin}{arg\,min\,}
+\DeclareMathOperator{\arginf}{arg\,inf\,}
+
+\thinmuskip=3mu plus 0mu minus 0mu
+\medmuskip=4mu plus 0mu minus 0mu
+\thickmuskip=5mu plus 0mu minus 0mu
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+% Otros --------------------------------------------------------------------------------------------
+% \linespread{1.5\baselineskip} %interlineado a espacio y medio
+% \linespread{2.0\baselineskip} %interlineado a doble espacio
+\setlength{\parskip}{1.0\baselineskip} % espacio entre parrafos
+\setlength{\parindent}{0mm} % indentacion
+
+% \setlength{\cftsecnumwidth}{1.0\baselineskip}
+% \setlength{\cftsubsecnumwidth}{1.0\baselineskip}
+
+% Espacio entre las tablas o graficos y el texto
+% \setlength{\textfloatsep}{\baselineskip plus 0.2\baselineskip minus 0.2\baselineskip}
+% \setlength{\intextsep}{\baselineskip plus 0.2\baselineskip minus 0.2\baselineskip}
+\setlength{\floatsep}{5pt}
+\setlength{\textfloatsep}{16pt}
+\setlength{\intextsep}{16pt}
+
+\setlength{\abovedisplayskip}{5pt}
+\setlength{\belowdisplayskip}{5pt}
+
+% New environements --------------------------------------------------------------------------------
+\theoremstyle{plain} 
+\newtheorem{ejemplo}{Ejemplo}
+\newtheorem{observacion}{Observación}[section]
+\newtheorem{comentario}{Comentario}[section]
+\newtheorem{nota}{Nota}[section]
+
+% Longtable configuration --------------------------------------------------------------------------
+% \setlength{\intextsep}{0pt} % Vertical space above & below [h] floats
+% \setlength{\textfloatsep}{0pt} % Vertical space below (above) [t] ([b]) floats
+% \setlength{\abovecaptionskip}{0pt}
+% \setlength{\belowcaptionskip}{0pt}
+\setlength{\LTpre}{16pt}
+\setlength{\LTpost}{0pt}
+
+% Caption configuration ----------------------------------------------------------------------------
+\captionsetup[figure]{format=hang,justification=RaggedRight,singlelinecheck=true,width=.8\textwidth,
+font=small,position=top,belowskip=0pt,aboveskip=0pt}
+\captionsetup[table]{format=hang,justification=RaggedRight,singlelinecheck=true,width=.8\textwidth,
+font=small,position=top,belowskip=0pt,aboveskip=0pt}
+
+\renewcommand{\mkbegdispquote}[2]{\itshape}
+\renewcommand{\mktextquote}[6]{#1\textit{#2}#4#3#6#5}
+% \makeatletter
+% \AddToHook{env/tabular/begin}{\let\input\@@input}
+% \makeatother
+\makeatletter
+\newcommand*{\inputverbatim}[1]{%
+    \begingroup
+    \let\do\@makeother
+    \dospecials
+    \obeyspaces% To get normal spaces not a symbol
+    \input{#1}%
+    \endgroup
+}
+\makeatother
+
+\sloppy

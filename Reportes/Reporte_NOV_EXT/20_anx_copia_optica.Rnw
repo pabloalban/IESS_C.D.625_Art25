@@ -1,0 +1,7 @@
+%---------------------------------------------------------------------------------------------------
+\chapter{Bases de información}
+\label{chp_copia_opt}
+
+En el disco adjunto constan las bases de datos y otra información relacionada, utilizadas en este 
+estudio, así como también las tablas de principales resultados. 
+Además se incluye una copia de este informe en formato .pdf (``Portable Document Format'').

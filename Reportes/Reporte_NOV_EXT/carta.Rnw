@@ -1,0 +1,45 @@
+\pagestyle{empty}
+
+Quito, xx de xx de 20XX
+
+\vspace{2cm}
+
+\begin{tabular}{@{}p{8.5cm}}
+
+	Señor \\
+	\textbf{XXX}\\
+	
+	Ciudad.
+	
+\end{tabular}
+
+\vspace{2cm}
+
+De mi consideración:
+
+\vspace{1cm}
+
+Este informe está dividido en xxxxxx grandes partes:
+
+\begin{enumerate}
+	\item Estudio actuarial de 
+\end{enumerate}
+
+
+Atentamente,
+
+\vspace{1cm}
+
+\begin{center}
+\textbf{} \\
+Actuario
+\end{center}
+ 
+\vspace{1.5cm}
+{\footnotesize Adj. Informe actuarial.}
+
+
+\cleardoublepage
+\pagestyle{empty}
+\sffamily
+\noindent

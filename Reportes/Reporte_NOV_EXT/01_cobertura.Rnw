@@ -1,0 +1,78 @@
+\pagestyle{empty}
+\newgeometry{top=3cm, bottom=1cm, left=4cm, right=3cm}
+%\pagecolor{cover_blue}
+% \BgThispage
+% \backgroundsetup{
+%  scale=0.75, %escala de la imagen, es recomendable que sea del mismo tamaño que el pdf
+%  color=black, %fondo a usar para transparencia
+%  opacity=0.25, %nivel de transparencia
+%  angle=0, %en caso de querer una rotación
+%  contents={%
+%   \includegraphics[width=\paperwidth,height=\paperheight]{graficos/caratula_v2.png} %nombre de la imagen a utilizar como fondo
+%  }%
+% }
+
+\begin{figure}[H]
+\includegraphics[width=0.12\textwidth]{graficos/logo_iess_azul.png}
+\end{figure}
+\vspace{-2.1cm}
+\hspace{2.1cm}{\fontsize{18}{18}{\bfseries{\selectfont{\textcolor{iess_green}{
+Instituto Ecuatoriano de Seguridad Social}}}}}
+\hspace{2.1cm}{\fontsize{14}{18}{\bfseries{\selectfont{\textcolor{iess_blue}{
+\hspace{2.1cm}Dirección Actuarial, de Investigación y Estadística}}}}}
+
+\vspace{2cm}
+\begin{flushleft}
+\hspace*{-2cm}{\color{iess_green}{\rule{10cm}{1pt}}}
+\end{flushleft}
+
+\vspace{0.5cm}
+
+\begin{center}
+
+\parbox{\textwidth}{ 
+
+  {\centering \fontsize{18pt}{22} { \selectfont{ \bfseries{ \textcolor{iess_blue} 
+    { \Sexpr{REP_tit} } } } \par } } 
+}
+
+% \vspace{1cm}
+% {\fontsize{15}{18}{\bfseries{\selectfont{\textcolor{iess_blue}{Fecha de valuación: 
+% \Sexpr{REP_fec_fin}}}}}}\\
+
+\end{center}
+
+\vspace{0.5cm}
+\hspace*{7cm}{\color{iess_green}{\rule{11cm}{1pt}}}
+
+\vspace{5cm}
+
+\vspace{1.3cm}
+\hspace*{7cm}{\fontsize{15}{18}{\bfseries{\selectfont{\textcolor{iess_blue}{Quito, 18 de mayo de 2021}}}}}
+\normalfont
+\clearpage
+
+% Formato de la página -----------------------------------------------------------------------------
+\newgeometry{top=3cm, bottom=2cm, left=3cm, right=2cm}
+\afterpage{\restoregeometry}
+
+\pagestyle{empty}
+\pagecolor{white}
+
+\vspace*{17cm}
+
+{\scriptsize 
+IESS \\
+Dirección Actuarial, de Investigación y Estadística\\
+%Título: \Sexpr{REP_tit}\\
+%Departamento: Dirección Actuarial y Estadísticas\\
+Dirección: Avenida 10 Agosto y Bogotá\\
+% Tel: \\
+% Cel:\\
+% e--mail:\\
+Quito, Ecuador.\\
+Versión: \Sexpr{REP_version}
+}
+
+
+\cleardoublepage

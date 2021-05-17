@@ -1,0 +1,367 @@
+%---------------------------------------------------------------------------------------------------
+\chapter[Valores no percibidos por pensiones e intereses]{Valores no percibidos por pensiones e intereses de la Jubilación Especial de los Trabajadores de la Industria del Cemento}
+\label{chp_valuacionactu}
+
+Utilizando la metodología explicada en el capítulo \ref{chp_modelo}, la cual sigue los considerandos DÉCIMO QUINTA y DÉCIMO SEXTO del recurso de Amparo Constitucional N° 916-07-RA, se obtiene los siguientes valores por las pensiones de 151 beneficiarios de la Jubilación Especial de los Trabajadores de la Industria del Cemento entre el período marzo 2000 a septiembre de 2010 en la tabla \ref{iess_liquidacion}. 
+
+Cabe señalar que la jueza es competente para analizar y resolver sobre el derecho a la jubilación de 42 ex trabajadores que poseen al menos 300 imposiciones en la industria del cemento, pero, su fecha de cese es anterior a la publicación en el Registro Oficial de esta Ley de jubilación especial (21 de marzo de 1989).
+
+Por concepto de pensiones no percibidas, a los 151 beneficiarios les corresponde USD \Sexpr{capital} por concepto de pensiones y USD \Sexpr{intereses} por intereses, lo que en total suman USD \Sexpr{liquidacion}.
+
+
+\begin{landscape}
+{\fontsize{9}{11}\selectfont
+\begin{longtable}[H]{clcccrrrrr}
+\caption{Valores adeudados por reliquidaciones y liquidaciones a los ex trabajadores de la Cemento Nacional }\\
+\label{iess_liquidacion} \\
+\toprule
+\multicolumn{1}{c}{Cédula}
+& \multicolumn{1}{c}{Apellidos y}
+&\multicolumn{1}{c}{Fecha inicio}
+&\multicolumn{1}{c}{Fecha fin}
+&\multicolumn{1}{c}{Fecha}
+&\multicolumn{1}{c}{Último}
+&\multicolumn{1}{c}{Pensión}
+&\multicolumn{1}{c}{Capital}
+&\multicolumn{1}{c}{Intereses}
+&\multicolumn{1}{c}{Total} \\
+\multicolumn{1}{c}{Ciudadanía}
+& \multicolumn{1}{c}{Nombres}
+& \multicolumn{1}{c}{de sentencia}
+& \multicolumn{1}{c}{de sentencia}
+& \multicolumn{1}{c}{fallecimiento}
+& \multicolumn{1}{c}{sueldo (\$)}
+& \multicolumn{1}{c}{mensual (\$)}
+& \multicolumn{1}{c}{(\$)}
+& \multicolumn{1}{c}{al 5,31\% (\$)}
+& \multicolumn{1}{c}{liquidación (\$)}\\
+\midrule
+\endfirsthead
+
+\toprule
+\multicolumn{1}{c}{Cédula}
+& \multicolumn{1}{c}{Apellidos y}
+&\multicolumn{1}{c}{Fecha inicio}
+&\multicolumn{1}{c}{Fecha fin}
+&\multicolumn{1}{c}{Fecha}
+&\multicolumn{1}{c}{Último}
+&\multicolumn{1}{c}{Pensión}
+&\multicolumn{1}{c}{Capital}
+&\multicolumn{1}{c}{Intereses}
+&\multicolumn{1}{c}{Total} \\
+\multicolumn{1}{c}{Ciudadanía}
+& \multicolumn{1}{c}{Nombres}
+& \multicolumn{1}{c}{de sentencia}
+& \multicolumn{1}{c}{de sentencia}
+& \multicolumn{1}{c}{fallecimiento}
+& \multicolumn{1}{c}{sueldo (\$)}
+& \multicolumn{1}{c}{mensual (\$)}
+& \multicolumn{1}{c}{(\$)}
+& \multicolumn{1}{c}{al 5,31\% (\$)}
+& \multicolumn{1}{c}{liquidación (\$)}\\
+\midrule
+\endhead
+
+\bottomrule
+\multicolumn{10}{r}{continúa...} \\
+\endfoot
+\bottomrule
+\caption*{\scriptsize Fuente: DSP y DAIE\\
+Elaborado: DAIE \\}
+\endlastfoot
+\input{tablas/iess_liquidacion.tex}
+\end{longtable}
+}
+\end{landscape}
+% 
+
+\clearpage
+
+\section{Detalle de la liquidación individual}
+\foreach \n in {1,2, ...,149}
+{ 
+\centering{\textbf{Liquidación de Jubilación Especial de los Trabajadores de la Industria del Cemento}}
+
+\justify
+El beneficiario \input{tablas/iess_nombre_\n.tex}, con cédula de ciudadanía \inputverbatim{tablas/iess_cedula_\n.tex}, registra fecha de cese \inputverbatim{tablas/iess_fecha_cese_\n.tex} y último sueldo \$ \inputverbatim{tablas/iess_ultimo_sueldo_\n.tex}.
+
+\justify
+La actualización de su último sueldo percibido, transformado a dólares, al año 2000, utilizando la variación anual del IPC de la canasta básica familiar se detalla en la tabla \ref{iess_actualizacion_\n}.
+{\fontsize{10}{12}\selectfont
+ \begin{longtable}[H]{ccccc}
+        \caption{Actualización del último sueldo a dólares al año 2000}\\
+        \label{iess_actualizacion_\n}\\
+\toprule
+ \multicolumn{1}{c}{Cédula}
+& \multicolumn{1}{c}{Año}
+& \multicolumn{1}{c}{Último sueldo}
+& \multicolumn{1}{c}{Variación}
+& \multicolumn{1}{c}{Sueldo}\\
+\multicolumn{1}{c}{Ciudadanía}
+&
+& \multicolumn{1}{c}{nominal (\$)}
+& \multicolumn{1}{c}{IPC (\%)}
+& \multicolumn{1}{c}{actualizado (\$)}\\
+\midrule
+\endfirsthead
+
+\toprule
+ \multicolumn{1}{c}{Cédula}
+& \multicolumn{1}{c}{Año}
+& \multicolumn{1}{c}{Variación}
+& \multicolumn{1}{c}{Sueldo}\\
+\multicolumn{1}{c}{Ciudadanía}
+&
+& \multicolumn{1}{c}{IPC (\%)}
+& \multicolumn{1}{c}{actualizado (\$)}\\
+\midrule
+\endhead
+
+\bottomrule
+\multicolumn{5}{r}{continúa...} \\
+\endfoot
+\bottomrule
+\caption*{\scriptsize Fuente: INEC. \\
+Elaborado: DAIE.}
+\endlastfoot
+\input{tablas/iess_actualizacion_\n.tex}
+\end{longtable}
+}
+
+\justify
+La liquidación de las pensiones no percibidas por la Jubilación Especial de los Trabajadores de la Industria del Cemento y sus respectivos intereses se detalla en la tabla \ref{iess_liquidacion_\n}.
+
+{\fontsize{8}{11}\selectfont
+ \begin{longtable}[H]{ccccccccccc}
+        \caption{Liquidación de pensiones e intereses generados entre el período marzo 2000 a septiembre de 2010}\\
+        \label{iess_liquidacion_\n}\\
+\toprule
+ \multicolumn{1}{c}{Cedula}
+& \multicolumn{1}{c}{Fecha}
+& \multicolumn{1}{c}{Fecha} 
+& \multicolumn{1}{c}{Fecha} 
+%& \multicolumn{1}{c}{Último}
+& \multicolumn{1}{c}{Año} 
+& \multicolumn{1}{c}{Meses} 
+& \multicolumn{1}{c}{$t$}
+& \multicolumn{1}{c}{Pensión}
+& \multicolumn{1}{c}{Pensión}
+& \multicolumn{1}{c}{Intereses}
+& \multicolumn{1}{c}{Capital}\\
+& \multicolumn{1}{c}{Fallecimiento}
+& \multicolumn{1}{c}{Inicio}
+& \multicolumn{1}{c}{Fin}
+%& \multicolumn{1}{c}{sueldo (\$)}
+&
+& \multicolumn{1}{c}{pagados} 
+& \multicolumn{1}{c}{Años}
+& \multicolumn{1}{c}{mensual (\$)}
+& \multicolumn{1}{c}{anual (\$)}
+& \multicolumn{1}{c}{5,31\% (\$)}
+& \multicolumn{1}{c}{+ Intereses (\$)}\\
+\midrule
+\endfirsthead
+
+\toprule
+ \multicolumn{1}{c}{Cedula}
+& \multicolumn{1}{c}{Fecha }
+& \multicolumn{1}{c}{Fecha} 
+& \multicolumn{1}{c}{Fecha} 
+%& \multicolumn{1}{c}{Último}
+& \multicolumn{1}{c}{Año} 
+& \multicolumn{1}{c}{Meses} 
+& \multicolumn{1}{c}{$t$}
+& \multicolumn{1}{c}{Pensión}
+& \multicolumn{1}{c}{Pensión}
+& \multicolumn{1}{c}{Intereses}
+& \multicolumn{1}{c}{Capital }\\
+& \multicolumn{1}{c}{Fallecimiento}
+& \multicolumn{1}{c}{Inicio}
+& \multicolumn{1}{c}{Fin}
+%& \multicolumn{1}{c}{sueldo (\$)}
+&
+& \multicolumn{1}{c}{pagados} 
+& \multicolumn{1}{c}{Años}
+& \multicolumn{1}{c}{mensual (\$)}
+& \multicolumn{1}{c}{anual (\$)}
+& \multicolumn{1}{c}{5,31\% (\$)}
+& \multicolumn{1}{c}{+ Intereses (\$)}\\
+\midrule
+\endhead
+
+\bottomrule
+\multicolumn{12}{r}{continúa...} \\
+\endfoot
+\bottomrule
+\caption*{\scriptsize Elaborado: DAIE \\}
+\endlastfoot
+\input{tablas/iess_liquidacion_\n.tex}
+\end{longtable}
+}
+
+\clearpage
+}
+
+
+
+
+
+
+\centering{\textbf{Liquidación de Jubilación Especial de los Trabajadores de landustria del Cemento}}
+
+\justify
+El beneficiario \input{tablas/iess_nombre_150.tex}, con cédula de ciudadanía \inputverbatim{tablas/iess_cedula_150.tex}, registra fecha de cese \inputverbatim{tablas/iess_fecha_cese_150.tex} y último sueldo \$ \inputverbatim{tablas/iess_ultimo_sueldo_150.tex}.
+
+\justify
+La liquidación de las pensiones no percibidas por la Jubilación Especial de los Trabajadores de la Industria del Cemento y sus respectivos intereses se detalla en la tabla \ref{iess_liquidacion_150}.
+
+{\fontsize{8}{12}\selectfont
+ \begin{longtable}[H]{ccccccccccc}
+        \caption{Liquidación de pensiones e intereses generados entre el período marzo 2000 a septiembre de 2010}\\
+        \label{iess_liquidacion_150}\\
+\toprule
+ \multicolumn{1}{c}{Cedula}
+& \multicolumn{1}{c}{Fecha}
+& \multicolumn{1}{c}{Fecha} 
+& \multicolumn{1}{c}{Fecha} 
+%& \multicolumn{1}{c}{Último}
+& \multicolumn{1}{c}{Año} 
+& \multicolumn{1}{c}{Meses} 
+& \multicolumn{1}{c}{$t$}
+& \multicolumn{1}{c}{Pensión}
+& \multicolumn{1}{c}{Pensión}
+& \multicolumn{1}{c}{Intereses}
+& \multicolumn{1}{c}{Capital}\\
+& \multicolumn{1}{c}{Fallecimiento}
+& \multicolumn{1}{c}{Inicio}
+& \multicolumn{1}{c}{Fin}
+%& \multicolumn{1}{c}{sueldo (\$)}
+&
+& \multicolumn{1}{c}{pagados} 
+& \multicolumn{1}{c}{Años}
+& \multicolumn{1}{c}{mensual (\$)}
+& \multicolumn{1}{c}{anual (\$)}
+& \multicolumn{1}{c}{5,31\% (\$)}
+& \multicolumn{1}{c}{+ Intereses (\$)}\\
+\midrule
+\endfirsthead
+
+\toprule
+ \multicolumn{1}{c}{Cedula}
+& \multicolumn{1}{c}{Fecha }
+& \multicolumn{1}{c}{Fecha} 
+& \multicolumn{1}{c}{Fecha} 
+%& \multicolumn{1}{c}{Último}
+& \multicolumn{1}{c}{Año} 
+& \multicolumn{1}{c}{Meses} 
+& \multicolumn{1}{c}{$t$}
+& \multicolumn{1}{c}{Pensión}
+& \multicolumn{1}{c}{Pensión}
+& \multicolumn{1}{c}{Intereses}
+& \multicolumn{1}{c}{Capital }\\
+& \multicolumn{1}{c}{Fallecimiento}
+& \multicolumn{1}{c}{Inicio}
+& \multicolumn{1}{c}{Fin}
+%& \multicolumn{1}{c}{sueldo (\$)}
+&
+& \multicolumn{1}{c}{pagados} 
+& \multicolumn{1}{c}{Años}
+& \multicolumn{1}{c}{mensual (\$)}
+& \multicolumn{1}{c}{anual (\$)}
+& \multicolumn{1}{c}{5,31\% (\$)}
+& \multicolumn{1}{c}{+ Intereses (\$)}\\
+\midrule
+\endhead
+
+\bottomrule
+\multicolumn{12}{r}{continúa...} \\
+\endfoot
+\bottomrule
+\caption*{\scriptsize Elaborado: DAIE \\}
+\endlastfoot
+\input{tablas/iess_liquidacion_150.tex}
+\end{longtable}
+}
+
+\clearpage
+
+
+
+\centering{\textbf{Liquidación de Jubilación Especial de los Trabajadores de landustria del Cemento}}
+
+\justify
+El beneficiario \input{tablas/iess_nombre_151.tex} con cédula de ciudadanía \inputverbatim{tablas/iess_cedula_151.tex} registra fecha de cese \inputverbatim{tablas/iess_fecha_cese_151.tex} y último sueldo \$ \inputverbatim{tablas/iess_ultimo_sueldo_151.tex}.
+
+\justify
+La liquidación de las pensiones no percibidas por la Jubilación Especial de los Trabajadores de la Industria del Cemento y sus respectivos intereses se detalla en la tabla \ref{iess_liquidacion_151}.
+
+{\fontsize{8}{12}\selectfont
+ \begin{longtable}[H]{ccccccccccc}
+        \caption{Liquidación de pensiones e intereses generados entre el período marzo 2000 a septiembre de 2010}\\
+        \label{iess_liquidacion_151}\\
+\toprule
+ \multicolumn{1}{c}{Cedula}
+& \multicolumn{1}{c}{Fecha}
+& \multicolumn{1}{c}{Fecha} 
+& \multicolumn{1}{c}{Fecha} 
+%& \multicolumn{1}{c}{Último}
+& \multicolumn{1}{c}{Año} 
+& \multicolumn{1}{c}{Meses} 
+& \multicolumn{1}{c}{$t$}
+& \multicolumn{1}{c}{Pensión}
+& \multicolumn{1}{c}{Pensión}
+& \multicolumn{1}{c}{Intereses}
+& \multicolumn{1}{c}{Capital}\\
+& \multicolumn{1}{c}{Fallecimiento}
+& \multicolumn{1}{c}{Inicio}
+& \multicolumn{1}{c}{Fin}
+%& \multicolumn{1}{c}{sueldo (\$)}
+&
+& \multicolumn{1}{c}{pagados} 
+& \multicolumn{1}{c}{Años}
+& \multicolumn{1}{c}{mensual (\$)}
+& \multicolumn{1}{c}{anual (\$)}
+& \multicolumn{1}{c}{5,31\% (\$)}
+& \multicolumn{1}{c}{+ Intereses (\$)}\\
+\midrule
+\endfirsthead
+
+\toprule
+ \multicolumn{1}{c}{Cedula}
+& \multicolumn{1}{c}{Fecha }
+& \multicolumn{1}{c}{Fecha} 
+& \multicolumn{1}{c}{Fecha} 
+%& \multicolumn{1}{c}{Último}
+& \multicolumn{1}{c}{Año} 
+& \multicolumn{1}{c}{Meses} 
+& \multicolumn{1}{c}{$t$}
+& \multicolumn{1}{c}{Pensión}
+& \multicolumn{1}{c}{Pensión}
+& \multicolumn{1}{c}{Intereses}
+& \multicolumn{1}{c}{Capital }\\
+& \multicolumn{1}{c}{Fallecimiento}
+& \multicolumn{1}{c}{Inicio}
+& \multicolumn{1}{c}{Fin}
+%& \multicolumn{1}{c}{sueldo (\$)}
+&
+& \multicolumn{1}{c}{pagados} 
+& \multicolumn{1}{c}{Años}
+& \multicolumn{1}{c}{mensual (\$)}
+& \multicolumn{1}{c}{anual (\$)}
+& \multicolumn{1}{c}{5,31\% (\$)}
+& \multicolumn{1}{c}{+ Intereses (\$)}\\
+\midrule
+\endhead
+
+\bottomrule
+\multicolumn{12}{r}{continúa...} \\
+\endfoot
+\bottomrule
+\caption*{\scriptsize Elaborado: DAIE \\}
+\endlastfoot
+\input{tablas/iess_liquidacion_151.tex}
+\end{longtable}
+}
+
+\clearpage
+

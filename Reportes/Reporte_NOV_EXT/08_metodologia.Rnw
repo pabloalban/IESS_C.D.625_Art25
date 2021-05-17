@@ -1,0 +1,27 @@
+%---------------------------------------------------------------------------------------------------
+\chapter{Metodología y procedimientos}
+\label{chp_modelo}
+Para determinar el valor individual correspondiente a cada beneficiario de la Jubilación Especial de los Trabajadores de la industria del Cemento, se sigue el procedimiento establecido en los considerandos DÉCIMO QUINTA y DÉCIMO SEXTO del recurso de Amparo Constitucional N° 916-07-RA; siguiendo los siguientes pasos:
+
+\begin{enumerate}[itemsep=1mm, topsep=5pt]
+\item	Una vez validado las aportaciones por la Dirección Nacional de Afiliación y Cobertura, y calificado el derecho por la Dirección del Sistema de Pensiones del IESS, se pone en conocimiento de esta Dirección la lista de 151 beneficiarios de esta jubilación especial de la ex Cemento Nacional, que cumplen los requisitos establecidos por la Ley.
+
+\item	Siguiendo lo establecido en el considerando DÉCIMO QUINTA del recurso de Amparo Constitucional N° 916-07-RA, se realiza un estudio de las últimas remuneraciones percibidas por los ex trabajadores que obtuvieron el derecho antes de la dolarización, para lo cual las mismas son actualizadas a valores que se correspondan con los porcentajes de satisfacción de la canasta básica familiar de las pensiones jubilares, utilizando la variación anual promedio del índice de los precios al consumidor (IPC) de la canasta básica, de acuerdo con las cifras oficiales publicadas por el INEC \footnote{\url{https://www.ecuadorencifras.gob.ec/documentos/web-inec/Inflacion/2021/Febrero-2021/Tabulados\%20y\%20series\%20historicas_Excel.zip}}. La expresión matemática para actualizar el último sueldo a un año es
+	\[
+S_t^{act}=S_{t-1}\cdot\left(1+r_t\right),\]
+donde: $S_{t}^{act}$ es el último sueldo actualizado al año $t$, $S_{t-1}$ es el último sueldo recibido y $r_t$ es la tasa de crecimiento del IPC entre el año $t$ y $t-1$.
+
+\item	Después de actualizar el último sueldo de los ex trabajadores que obtuvieron el derecho antes de la dolarización al año 2000, se establece la pensión mensual igual al sueldo actualizado al año 2000; es decir,
+	\[P_{t}=S_{t}^{act}.\]
+En el caso que la fecha de cese fuera después del inicio de la dolarización, se establece la pensión mensual igual al último sueldo. Además, no se considera crecimiento de la pensión, puesto que la Ley establece que la pensión debe ser igual al 100\% del último sueldo percibido.
+
+Entonces, la pensiones que se debieron recibir al año son
+	\[P_{t}^{anual}=12\cdot P_t,\]
+y los intereses, $I_t$, que generaron la falta de pago por $n$ años son igual a
+\[I_{t}=P_{t}^{anual}\cdot\left(1+n\cdot 5,31\%\right),\]
+siguiendo el considerando DÉCIMA TERCERA, se establece lata tasa de interés igual al 5,31\% y $n$ es el número de años:
+\[n=\max\left\{2010-t;\text{año fallecimiento} - t\right\}.\]
+De esta manera, se calcula los haberes por pensiones no percibidas entre 2000 y 2010, y sus intereses, L, es igual a
+\[L\ =\ \sum_{t=2000}^{m}{P_t^{anual}+I_t},\]
+donde: $m$ es el número menor entre 2010 o el año del fallecimiento del beneficiario; puesto que esta es una pensión de vejez y la Ley Especial no indica que sea un seguro de muerte, donde los huérfanos o viudas reciban una pensión.
+\end{enumerate}

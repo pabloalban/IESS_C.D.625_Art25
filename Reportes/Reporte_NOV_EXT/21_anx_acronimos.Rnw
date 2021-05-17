@@ -1,0 +1,39 @@
+%---------------------------------------------------------------------------------------------------
+\chapter{Lista de acrónimos y abreviaturas}
+\label{acron}
+
+%---------------------------------------------------------------------------------------------------
+\section{Acrónimos}
+
+\begin{description}
+	\item[IESS:] Instituto Ecuatoriano de Seguridad Social.
+	\item[SGO:] Seguro General Obligatorio.
+	\item[DAIE] Dirección Actuarial, de Investigación y Estadística del IESS.
+	\item[OIT:] Organización Internacional del Trabajo.
+	\item[MDT:] Ministerio de Trabajo.
+	\item[SB:] Superintendencia de Bancos.
+	\item[CGE:] Contraloría General del Estado.
+	%	\item[SGSIF:] Seguro General de Salud Individual y Familiar (IESS).
+%	\item[SSC:] Seguro Social Campesino.
+%	\item[SST:] Seguridad y salud en el trabajo.
+	\item[LSS:] Ley de Seguridad Social.
+	\item[LOD:] Ley Orgánica de Discapacidades.
+%	\item[:] 	
+\end{description}
+
+%---------------------------------------------------------------------------------------------------
+\section{Abreviaturas y símbolos}
+\begin{description}
+	\item[Seguro IVM:] Seguro de invalidez, vejez y muerte administrado por el IESS.
+	\item[PEA:] Población económicamente ativa.
+	\item[MEAN:] promedio aritmético de una variable numérica.
+	\item[SD:] desviación estándar de una variable numérica.
+	\item[MIN:] valor mínimo de una variable numérica.
+	\item[MAX:] valor máximo de una variable numérica.
+	\item[SBU:] salario básico unificado establecido por el Ministerio de Trabajo.
+	\item[RBU:] remuneración básica unificada.
+	\item[USD:] dólares de los Estados Unidos de Norteamérica, como unidad monetaria.
+	\item[VAP:] valor actuarial presente.
+	\item[pb:] puntos básicos ($1 pb = 1\% / 100$)
+\end{description}
+

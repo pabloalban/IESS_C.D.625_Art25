@@ -1,0 +1,133 @@
+%---------------------------------------------------------------------------------------------------
+\chapter{Antecedentes}
+\label{chap_Antecedentes}
+
+\begin{enumerate}
+
+
+
+	\item  La sentencia de 15 de diciembre de 2010, del caso 0916-07-RA, indica en su parte pertinente: 
+
+“(...)  DECIMA  QUINTA.-  La  solución  plausible  que  esta  Corte  encuentra  para  el problema  planteado,  es  la  realización  de  un  estudio  actuarial  por  parte  del  IESS  de  las últimas  remuneraciones  percibidas  por  los  trabajadores  que  se  jubilaron  antes  de  la dolarización, para que las mismas sean actualizadas a valores que se correspondan con los  porcentajes  de  satisfacción  de  la  canasta  básica  familiar  de  las  pensiones  jubilares percibidas  por  los  trabajadores  de  la  industria  del  cemento,  en  la  actualidad  y  hasta  la fecha  de  conclusión  del  referido  estudio,  que  será  realizado  de  acuerdo  con  las  cifras  y datos oficiales del Instituto Nacional de Estadísticas y Censos (INEC), de acuerdo con el procedimiento  que  se  establece  más  adelante;  esto  en  aplicación  de  lo  dispuesto  en  el Art. 60 de la Constitución Política del Estado de 1998, según el cual, "Las pensiones por jubilación deberán ajustar anualmente, según las disponibilidades del fondo respectivo el cual se capitalizará para garantizar una pensión acorde con las necesidades básicas de sustentación y costo de vida. ", así como de la aplicación del principio de progresividad de los derechos consagrado en la Constitución de 1998.
+
+DÉCIMO  SEXTO.-  La  Ley  de  Jubilación  Especial  para  los  trabajadores  de  la  industria del  Cemento  determina  que  el  requisito  que  deben  cumplir  los  beneficiarios  de  dicha norma  legal,  es  el  de  acreditar  por  lo  menos  trescientos  imposiciones  al  Instituto Ecuatoriano  de  Seguridad  Social  sin  importar  su  edad,  por  lo  que  en  marco  de  esta resolución,  resulta  necesario  determinar  con  claridad  que  trabajadores  jubilados  de  la Cemento Nacional, hoy HOLCIM,  resultarían favorecido de la aplicación de la presente resolución, y en qué medida lo harían. 
+
+Para hacerlo esta Corte observa necesario determinar de manera individual el valor correspondiente a cada jubilado identificado por el Instituto Ecuatoriano de Seguridad Social,  por  lo que deberá seguirse el siguiente procedimiento:  a).   El legitimado activo realizar una lista en la cual identificará los posibles beneficiarios de esta resolución, la cual deberá ser entregada directamente al IESS; b). una vez remitida dicha información al Instituto Ecuatoriano de Seguridad Social, este verificará que las personas constantes en aquella lista hayan acreditado por lo menos 300 imposiciones tal como lo establece la Ley de Jubilación Especial de los trabajadores de la Industria del Cemento; y e). una vez identificados los beneficiarios por parte del IESS, este deberá remitir el proporcional al fondo de jubilación especial correspondiente y el informe que detalle el valor que deberá ser cancelado de manera individual a cada trabajador con sus respectivos intereses, tal como se establece en el considerando décimo tercer y de acuerdo a los requisitos establecidos con anterioridad,  a  la Asociación de Jubilados y Veteranos de la Cemento Nacional, quien será la responsable de acreditar los montos determinados por el IESS a cada uno de los beneficiarios de esta resolución de manera directa”.
+
+	\item  Mediante Memorando Nro. IESS-DSP-2020-1370-M, de fecha 14 de diciembre de 2020, la Dirección del Sistema de Pensiones se solicita a la Dirección Actuarial, de Investigación y Estadística: “(...) que la Dirección a su cargo remita el listado enviado con Memorando Nro. IESS-DPG-2020-3091-M, en base a lo expuesto por el Procurador General del IESS”.
+
+	\item Con Memorando Nro. IESS-DAIE-2020-0868-M, de fecha 18 de diciembre de 2020, a Dirección Actuarial, de Investigación y Estadística manifiesta: “(...) envió en físico los originales de los documentos anexados al memorando IESS-DPG-2020-3091-M, referentes al juicio de ejecución No. 09332-2019-09723, devenido del caso No. 0013-16-IS, acción de incumplimiento de sentencias y dictámenes constitucionales respecto de la Resolución No. 0916-07-RA de 15 de diciembre de 2010 (...)”.
+
+	\item Mediante Memorando Nro. IESS-DSP-2021-0005-M, de fecha 04 de enero de 2021, la Dirección del Sistema de Pensiones solicita a la Dirección Nacional de Afiliación y Cobertura lo siguiente: “(…) se certifique el número de aportes que correspondan exclusivamente a las Industrias del Cemento y se certifique el último sueldo o salario del listado adjunto”.
+	
+	\item A través del Oficio IESS-DSP-2021-0003-OF, de fecha 04 de enero de 2021, la Dirección del Sistema de Pensiones solicita a la empresa Holcim Ecuador S.A. lo siguiente: “por esta razón se solicita a ustedes como el ultimo empleador registrado en el IESS, se certifique el último sueldo o salario de las personas antes mencionadas, considerando lo señalando en el Código de Trabajo.”
+	
+	\item	La empresa Holcim Ecuador S.A. mediante documento externo IESS-SDNGD-2021-1023-E del 08 de enero de 2021, remite la información de 122 ex trabajadores a la Dirección del Sistema de Pensiones, de los cuales se observa que existe datos del último sueldo en únicamente 90 personas.
+	
+	\item	Con documento externo IESS-SDNGD-2021-2106-E del 12 de enero de 2021, la empresa Holcim Ecuador S.A. comunica a la Dirección del Sistema de Pensiones: “(…) en que más allá de larguísimas copias de oficios de tercero y de citas de “bases legales”, lo que Holcim Ecuador ha enviado es lo único que tiene y puede enviar en estricto cumplimiento con la integralidad de sus registros y/o bases de datos”.
+
+	\item Con Memorando Nro. IESS-DNAC-2021-0032-M, de fecha 13 de enero de 2021, la Dirección Nacional de Afiliación y Cobertura comunica lo siguiente: “(…) se han realizado el conteo de los aportes registrados dentro de los empleadores de la industria del cemento tanto del sistema Host como Historia Laboral mismos que se listan por separado en hojas electrónicas y se anexan en medio digital”.
+
+
+
+\item	Mediante Memorando Nro. IESS-DSP-2021-0046-M, de fecha 15 de enero de 2021, la Dirección del Sistema de Pensiones se remite a la Dirección Nacional de Afiliación y Cobertura: “(...) revisada la información remitida por la Dirección a su cargo se pudo evidencia que no existe información de los siguientes números de cedula: 10900281576 20900688904 30903006583 40904473881 50904872728 60905336970 70906105929 8120179150490 900670233 Finalmente, también me permito mencionar que en la información remitida no se encuentra el último sueldo o salario reportado en la industria del cemento (...)”.
+
+
+	\item Con Memorando Nro. IESS-DSP-2021-0090-M de fecha 21 de enero de 2021, suscrito por el Director de Pensiones en, el cual se indicó las acciones realizas por esta Dirección que son: “(...) En base a los antecedentes y normativa expuesta se puede indicar que la Dirección del Sistema de Pensiones en el ámbito de sus competencias ha ejecutado las acciones administrativas correspondientes, con la finalidad de brindar los insumos necesarios para que la Dirección Actuarial de Investigación y Estadística del IESS proceda acatar la orden del juez, sin embargo, hasta la presente fecha no se cuenta con la información necesaria para la generación del estudio actuarial correspondiente.
+	
+Adicionalmente, se solicita a su Dependencia gestionar ante la Unidad Judicial de lo Civil con sede en el Cantón de Guayaquil, se determine el listado de beneficiarios de la sentencia debidamente aprobado por la misma, considerando que en la sentencia judicial se determina que el beneficio es exclusivamente para 300 personas, sin embargo, en la información entregada por la Asociación de Jubilados y Veteranos de la Cemento Nacional contiene a 321 beneficiarios, e incluyendo número de imposiciones que son diferentes a las que constan en el sistema de afiliación del IESS”.
+
+\item A través de Memorando Nro.  IESS-DNAC-2021-0097-M,  de  fecha 03 de febrero de 2021, la Dirección Nacional de Afiliación y Cobertura señala:  “Con el objeto de solventar lo solicitado en párrafos anteriores se procede con la consulta y extracción de los números Patronales y los números de RUC con los que fueron correlacionados de todas las empresas cuya actividad económica es la elaboración de cemento, obteniendo los siguientes empleadores:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}ll@{}}
+\toprule
+\multicolumn{1}{c}{\textbf{Patronal}} & \multicolumn{1}{c}{\textbf{Razón Social}} \\ \midrule
+12031005                              & Cementos Rocafuerte Rocanfort S.A.        \\
+12078224                              & Distribuidora San Eduardo                 \\
+12031050                              & Hormigones Precon S.A.                    \\
+06041048                              & Hormigones Precon S.A.                    \\
+12038236                              & Negocios Industriales Real S.A.           \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}ll@{}}
+\toprule
+\multicolumn{1}{c}{\textbf{RUC}} & \multicolumn{1}{c}{\textbf{Razón Social}} \\ \midrule
+0990293244001                    & HOLCIM Ecuador S.A.                       \\
+0991287647001                    & HOLCIM Hormigones S.A.                    \\
+0991296778001                    & HOLCIM Agregados S.A.                     \\
+0991420193001                    & HOLCIM Cementos S.A.                      \\ \bottomrule
+\end{tabular}
+\end{table}
+
+En   ese   sentido   se   anexa   archivo   que   contiene   el   conteo   de   aportes   registrados únicamente en los números Patronales y RUC del listado anterior. Es necesario indicar que no se encuentran registros de la actividad económica de los números patronales 12031050,  06041048, sin embargo,  son  agregados dado su razón social y debido a que se localizan afiliados embebidos al listado de cédulas que registran aportes bajo estos empleadores”.
+
+	\item Con Memorando Nro.  IESS-DSP-2021-0168-M,  de  fecha  17  de  febrero  de  2021, la Dirección del Sistema de Pensiones indica:  “(...)  se  identificó  que  existen  casos  con  registros  duplicados  (...)  el  asegurado con número de cédula 0800335416, mantiene tres registros tanto de HOST como de HL, lo que resulta ambiguo identificar cual es el último sueldo o salario y el total de aportes en la industria del cemento; ibidem, (...) solicitar el reprocesamiento de la información enviada  en  su  momento  de  manera  urgente,  la  cual  deberá  ser  remitida  con  un  solo registro por número de cédula del asegurado con los siguientes campos: 
+\begin{itemize}
+\item Número de Cédula;
+\item Año y mes de la última planilla de la empresa cementera;
+\item RUC / Número Patronal de la última planilla de la empresa cementera;
+\item Razón Social de la última planilla de la empresa cementera;
+\item Tipo de empleador de la última planilla de la empresa cementera;
+\item Código y detalle de la última planilla de la empresa cementera  (Considerar únicamente planillas normales);
+\item Último sueldo o salario de la última planilla de la empresa cementera;
+\item Total de aportes (HOST y HL) de las industrias del cemento."
+\end{itemize}
+
+	\item Mediante Memorando Nro. IESS-DNAC-2021-0140-M, de fecha 18 de febrero de 2021, la Dirección Nacional de Afiliación y Cobertura  señala en su parte pertinente: “(...) es claro cuando especifica que se necesita extraer el último  salario  registrados  en  la  industria  cementera  según  el  listado  de  cédulas proporcionado,   para   lo   cual   se   realiza   la   extracción   de   datos   por   empleador contemplando el proceso de correlación entre el número Patronal y el RUC, en donde es común  que  cambié  no  solo  el  código  de  identificación  del  empleador  sino  también  la razón social, es por esta misma causa que se realiza el conteo de aportes de los sistemas Host e Historia Laboral por separado.
+
+Así mismo es necesario indicar que no se precisa bajo qué condiciones se debe excluir a los afiliados que se listan en el reporte más de una vez, dado que al analizar los casos se presentan afiliados que fueron transferidos de una empresa cementera a otra, o en su defecto se realizó el proceso de correlación antes indicado, y para los trabajadores que se encuentren en condiciones de afiliación simultánea.
+
+\item A través de Memorando Nro. IESS-DSP-2021-0172-M,  de fecha 22 de febrero de 2021, la Dirección del Sistema de Pensiones insiste en el requerimiento solicitado con Memorando Nro. IESS-DSP-2021-0168-M.
+
+	\item Con Memorando Nro. IESS-DNAC-2021-0170-M de 26 de febrero de 2021, suscrito por el Director Nacional de Afiliación y Cobertura que señala en su parte pertinente: “(...)Enmarcado en las competencias de la Dirección Nacional de Afiliación y Cobertura, y en atención a los antecedentes expuestos en el oficio de la referencia, se han realizado el conteo de los aportes registrados dentro de los empleadores de la industria del cemento tanto del sistema Host como Historia Laboral mismos que se listan por separado en hojas electrónicas y se anexan en medio digital.
+
+Así mismo con el objeto de que sea posible identificar el último aporte generados por el afiliado en la industria cementera y en función a lo acordado en reunión vía telefónica del día 25 de febrero del presente, se anexan los campos Período de la primera planilla generada y el sueldo por período que representa la sumatoria de planillas por cada período”.
+
+
+	\item Mediante Memorando Nro. IESS-DSP-2021-0221-M de 04 de marzo de 2021, dirigido a la Dirección Actuarial, de Investigación y Estadística que señala: “(…) se procedió a la consolidación de la información insumo y se adjunta en archivo Excel y Pdf la información del total de imposiciones en la Industria del Cemento, último sueldo nominal en la Industria del Cemento, fecha de fallecimiento, período del último aporte en la Industria del Cemento y la información de calificación del derecho al pago de la sentencia, con el fin que la Dirección a su cargo continúe con la generación de los cálculos de valores considerando los parámetros que determina la sentencia de 15 de diciembre de 2010, del caso 0916-07-RA (…)”
+
+	\item Con Memorando Nro.  IESS-DNAC-2021-0181-M  de  03  de  marzo  de  2021,  suscrito  por el   Director   Nacional   de   Afiliación   y   Cobertura   en   alcance   al   Memorando   Nro.IESS-DNAC-2021-0170-M  de  26  de  febrero  de  2021  que  señala  en  su  parte  pertinente:"(...)  De  las  validaciones  realizadas  a  los  datos  antes  mencionados  se  determina  que  es necesario realizar ajustes a las variables referentes al salario y al último período en que se  generó  una  planilla  de  aportes,  para  lo  cual  en  la  información  anexa  se  agregan  las siguientes variables tanto para el sistema Host como Historia Laboral:
+
+\begin{enumerate} 
+\item PERÍODO PRIMERA PLANILLA: Se obtiene el primer registro localizado 
+\item PERÍODO ÚLTIMA PLANILLA: Se obtiene el último registro localizado 
+\item ÚLTIMO SALARIO REGISTRADO: Se obtiene el último sueldo nominal de la última planilla de aportes por 30 días. 
+\item ÚLTIMO SALARIO REGISTRADO: Se compone de la sumatoria de todas las planillas para del período (sumatoria Planillas A+AA+SSE) 
+\item TOTAL APORTES HOST: Corresponde al conteo de aportes por empleador".
+\end{enumerate}
+
+	\item Mediante Memorando Nro. IESS-DSP-2021-0261-M de 16 de marzo de 2021, el Econ. José Antonio Martínez Dobronsky, Director del Sistema De Pensiones del IESS, envía una actualización de los últimas remuneraciones adjuntadas en el Memorando Nro. IESS-DSP-2021-0221-M, con las siguientes palabras:
+“En base a la reunión de trabajo entre la Dirección Actuarial, de Investigación y Estadística y Dirección del Sistema de Pensiones con fecha 09 de marzo de 2021, se solicitó a la Dirección de Afiliación con Memorando Nro. IESS-DSP-2021-0241-M, la certificación de 33 casos que  presentaban variaciones del 25\% o más entre el último sueldo nominal y el penúltimo sueldo de la industria del cemento; de los cuales se certifican que 26 casos no existe variación y se mantendría el mismo valor presentado, mientras que 7 caso remiten con un nuevo valor del último sueldo nominal en la industria del cemento, mismo que son:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{cccc}
+\toprule
+\multicolumn{1}{c}{\textbf{Cédula}} & \multicolumn{1}{c}{\textbf{RUC empleador}}  & \multicolumn{1}{c}{\textbf{Última planilla}} & \multicolumn{1}{c}{\textbf{Último sueldo}} \\ \midrule
+0900551607	&12031005	&1993-11	&33,52 \\
+0900237272	&12031005	&2007-02	&1.340,00\\
+0900427725	&12031005	&1983-08	&0,34\\
+0900800962	&12031005	&1985-06	&1,98\\
+1702346188	&12031005	&1996-08	&1.410,98\\
+0900817222	&12031005	&1995-04	&1,34\\
+0900444860	&12031005	&1995-10	&19,90\\ \bottomrule
+\end{tabular}
+\end{table}
+
+\item Mediante Memorando Nro. IESS-DSP-2021-0268-M suscrito el 18 de marzo de 2021 por la Dirección del Sistema de Pensiones, a través del cual se solicita a la Dirección Nacional de Afiliación y Cobertura lo siguiente: “Por lo expuesto y en base a la revisión conjunta entre las Direcciones del Sistema de Pensiones y Actuarial a la información del último sueldo en la industria del cemento y los resultados de los cálculos aplicados por parte de la Dirección Actuarial, de Investigación y Estadística con la información insumo proporcionada por la Dirección Nacional de Afiliación y Cobertura, se identificó casos en los cuales el último sueldo presenta un incremento significativo en comparación al promedio del universo considerando la fecha del cese en la industria del cemento, así como, una variación considerable con el último sueldo de 90 personas reportado por la empresa Holcim Ecuador a la Dirección del Sistema de Pensiones, los cuales, en los casos revisados en los aplicativos informáticos de Pensiones, concuerdan con el valor del sueldo de la penúltima planilla de aportes.
+
+Por lo anterior, con el fin de continuar con el cumplimiento de la sentencia judicial, esta Dirección del Sistema de Pensiones solicita de manera urgente la información del sueldo, período (año y mes) y el RUC/PATRONAL de la penúltima planilla normal de aportes al IESS en la industria del cemento del listado Excel adjunto de los posibles beneficiarios.” 
+
+\item Mediante Memorando Nro. IESS-DNAC-2021-0227-M del 19 de marzo de 2021 a través del cual la Dirección Nacional de Afiliación y Cobertura comunica a la Dirección del Sistema de Pensiones: “En ese sentido el documento anexo al memorando de la referencia contiene 319 números de cédula de los cuales se consultan todas las planillas de aportes (A) y ajustes (AA), generadas durante el penúltimo período aportado dentro de los Rucs y números Patronales de los empleadores de la Industria Cementera.
+
+Los datos extraídos se encuentran anexos al presente memorando en hoja electrónica; adicionalmente a las variables solicitadas se consideró necesario agregar los días de la planilla con el objeto de determinar si el valor del salario corresponde a un periodo igual o inferior a 30 días laborados.” 
+
+\item A través del Memorando Nro. IESS-DSP-2021-0274-M suscrito el 19 de marzo de 2021 por la Dirección del Sistema de Pensiones, a través del cual se comunica lo siguiente: “(…) En base a los antecedentes y normativa se puede indicar que una vez realizadas nuevas verificaciones a la información proporcionada por la Asociación de Jubilados de la Cemento Nacional, así como de los datos proporcionados por la industria cementera Holcim Ecuador S.A. y la Dirección Nacional de Afiliación y Cobertura en el ámbito de sus competencias; en razón de las observaciones encontradas en la reunión mantenida entre las Direcciones de Pensiones y Actuarial, me permito adjuntar la información de los posibles beneficiarios de la sentencia judicial, considerando la información del último sueldo nominal reportado por la empresa Holcim y los datos proporcionados por la Dirección Nacional de Afiliación y Cobertura, con la finalidad de finalizar con el cálculo de los valores individualizados”.
+
+	
+\end{enumerate}

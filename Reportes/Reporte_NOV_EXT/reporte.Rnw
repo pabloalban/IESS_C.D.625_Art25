@@ -1,0 +1,112 @@
+%---------------------------------------------------------------------------------------------------
+% template document
+\documentclass[12pt, a4paper, twoside, openany]{book}
+\input{\Sexpr{REP_style}}
+
+%---------------------------------------------------------------------------------------------------
+%\SetWatermarkText{\Sexpr{REP_watermark}}
+\SetWatermarkText{}
+%\SetWatermarkScale{0.30}
+%\SetWatermarkColor[cmyk]{0, 0, 0, 0.15}
+
+%Sumilla Actuario-----------------------------------------------------------------------------------
+% \newcommand\BGfrom[1]{%
+% \AddEverypageHook{%
+%   \ifnum\value{page}>\numexpr#1-1\relax
+%     \backgroundsetup{
+% angle=-20,
+% %position={0.68\textwidth,-.68\textheight},%
+% position={10.8cm,-16.9cm},%
+% contents={\includegraphics[scale=0.07]{graficos/sumilla_actuario.png}}
+%     }%
+%   \fi
+%   \BgMaterial%
+%   }%
+% }
+% \BGfrom{3}
+
+% Bibliografía -------------------------------------------------------------------------------------
+\addbibresource{\Sexpr{REP_bib_lib}}
+\addbibresource{\Sexpr{REP_bib_art}}
+\addbibresource{\Sexpr{REP_bib_ley}}
+
+%---------------------------------------------------------------------------------------------------
+% Inicio del documento
+\begin{document}
+
+%---------------------------------------------------------------------------------------------------
+%\frontmatter
+% Contenidos
+<<cap01, child='01_cobertura.Rnw'>>=
+@
+
+<<cap02, child='02_contenido.Rnw'>>=
+@
+
+%---------------------------------------------------------------------------------------------------
+% Cuerpo del estudio
+%\mainmatter
+
+%<<cap03, child='03_resumen_ejecutivo.Rnw'>>=
+%@
+
+<<cap04, child='04_antecedentes.Rnw'>>=
+@
+
+<<cap05, child='05_base_legal.Rnw'>>=
+@
+
+% <<cap06, child='07_demografia.Rnw'>>=
+% @
+% 
+% <<cap08, child='08_metodologia.Rnw'>>=
+% @
+% 
+% %<<cap09, child='09_hipotesis.Rnw'>>=
+% %@
+% % 
+% % <<cap10, child='10_riesgos.Rnw'>>=
+% % @
+%  
+% <<cap11, child='11_liquidacion.Rnw'>>=
+% @
+% 
+% <<cap13, child='13_conclusion.Rnw'>>=
+% @
+% 
+% <<cap12, child='13_sensibilidad.Rnw'>>=
+%  @
+%
+%<<cap14, child='14_opinion_actuarial.Rnw'>>=
+%@
+
+%---------------------------------------------------------------------------------------------------
+% Apéndices
+%\appendix
+%\appendixpage
+
+% <<cap16, child='16_anx_modelo_macro.Rnw'>>=
+% @
+
+% <<cap17, child='17_anx_tasas_morbilidad.Rnw'>>=
+% @
+
+% <<cap18, child='18_anx_tablas_biometricas.Rnw'>>=
+% @
+
+%<<cap20, child='20_anx_copia_optica.Rnw'>>=
+%@
+
+%---------------------------------------------------------------------------------------------------
+% Acrónimos
+%<<cap21, child='21_anx_acronimos.Rnw'>>=
+%@
+
+%---------------------------------------------------------------------------------------------------
+%\backmatter
+
+% Bibliografía
+%\printbibliography
+%\addcontentsline{toc}{chapter}{Bibliografía}
+
+\end{document}

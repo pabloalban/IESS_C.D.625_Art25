@@ -1,0 +1,81 @@
+%---------------------------------------------------------------------------------------------------
+% \chapter[Análisis demográfico, de salarios y prestaciones]{Análisis demográfico, de salarios y 
+% prestaciones}
+% \label{chp_demog}
+%---------------------------------------------------------------------------------------------------
+\chapter{Calificación del derecho a la jubilación Especial}
+%{Calificación del derecho a la jubilación Especial de los Trabajadores de la Industria del Cemento}
+\label{chp_demog}
+
+Mediante el memorando Nro. IESS-DSP-2021-0221-M de fecha 04 de marzo de 2021, Econ. José Antonio Martínez Dobronsky, Director del Sistema de Pensiones del Instituto de Seguridad Social Ecuatoriano, confirma el listado de extrabajadores que cumplen con los requisitos de la jubilación especial, con las siguientes palabras:
+
+“En base a los antecedentes y normativa se puede indicar que, una vez realizadas las verificaciones a la información proporcionada por la Asociación de Jubilados de la Cemento Nacional, hoy Holcim Ecuador, así como de los datos proporcionados por la Dirección Nacional de Afiliación y Cobertura en el ámbito de sus competencias, me permito señalar que: 
+\begin{itemize}
+\item Del total de 321 registros proporcionados en Memorando  Nro.IESS-DAIE-2020-0868-M, se evidenció que la cédula número 0900486572,  se registra como duplicado en la numeración 153 y 183.  Así también,  la  cédula 0900281576 no mantiene información en registros de afiliación, ni en la Base de Registro Civil.  
+\item Razón por la cual,  el  total de registros válidos son de 319 personas como posibles beneficiarias. Considerando la información consolidada de sueldos y aportes dentro de la industria del cemento de los posibles beneficiarios proporcionada por la Dirección Nacional de Afiliación y Cobertura,  se  verificó el cumplimiento de las 300 imposiciones o más y se identificaron a las personas fallecidas previa al período de pago 2000 - 2010. 
+\item Adicionalmente,  en  apego a la Ley para la Trasformación Económica del Ecuador, publicada en el Registro Oficial Suplemento 34 de 13 de marzo del 2000, mediante el cual se emitió la Ley para la Transformación Económica del Ecuador, se realizó la categorización del tipo de sueldos (sucres o dólares) del último aporte en la industria del cemento”.
+\end{itemize}
+
+Por lo tanto, solamente 151 extrabajadores cumplen con más de 300 imposiciones de la industria del cemento y debieron percibir esta pensión en el período 2000 a 2010, de los cuales 42 tienen fecha de cese antes de la publicación de la Ley de la Jubilación Especial de los Trabajadores de la Industria del Cemento; en tal caso el juez pertinente determinará , si estos extrabajadores tienen derecho a esta jubilación especial.
+
+De esta manera, se excluyeron de este beneficio a 168 extrabajadores, de los cuales 32 fallecieron antes del año 2000 y 136 no cumplen con al menos 300 imposiciones en la industria del cemento, según lo señala la Dirección del Sistema de Pensiones del IESS. En la tabla \ref{tab:iess_demandantes}, se presenta la lista de los 319 posibles beneficiarios y se determina si cumple el derecho a la jubilación especial.
+
+\begin{landscape}
+{\fontsize{8}{11}\selectfont
+\begin{longtable}[H]{clcrrrcl}
+\caption{Calificación del derecho a la jubilación Especial de los Trabajadores de la Industria del Cemento}\\
+\label{tab:iess_demandantes} \\
+\toprule
+\multicolumn{1}{c}{Cédula}
+& \multicolumn{1}{c}{Apellidos y}
+&\multicolumn{1}{c}{Fecha}
+&\multicolumn{1}{c}{Aportes}
+&\multicolumn{1}{c}{Imposiciones}
+&\multicolumn{1}{c}{Último}
+&\multicolumn{1}{c}{Cumple}
+&\multicolumn{1}{c}{Observación} \\
+\multicolumn{1}{c}{Ciudadanía}
+& \multicolumn{1}{c}{Nombres}
+& \multicolumn{1}{c}{Cese}
+&\multicolumn{1}{c}{Total}
+&\multicolumn{1}{c}{Total Cemento}
+&\multicolumn{1}{c}{sueldo (\$)}
+&\multicolumn{1}{c}{requisitos Sentencia}
+&\\
+\midrule
+\endfirsthead
+
+\toprule
+\multicolumn{1}{c}{Cédula}
+& \multicolumn{1}{c}{Apellidos y}
+&\multicolumn{1}{c}{Fecha}
+&\multicolumn{1}{c}{Aportes}
+&\multicolumn{1}{c}{Imposiciones}
+&\multicolumn{1}{c}{Último}
+&\multicolumn{1}{c}{Cumple}
+&\multicolumn{1}{c}{Observación} \\
+\multicolumn{1}{c}{Ciudadanía}
+& \multicolumn{1}{c}{Nombres}
+& \multicolumn{1}{c}{Cese}
+&\multicolumn{1}{c}{Total}
+&\multicolumn{1}{c}{Total Cemento}
+&\multicolumn{1}{c}{sueldo (\$)}
+&\multicolumn{1}{c}{requisitos Sentencia}
+&\\
+\midrule
+\endhead
+
+\bottomrule
+\multicolumn{8}{r}{continúa...} \\
+\endfoot
+%\bottomrule
+\caption*{\scriptsize Fuente: Memorando Nro. IESS-DNAC-2021-0181-M de fecha 03 de marzo de 2021; \\
+Memorando Nro. IESS-DNAC-2021-0227-M de fecha 19 de marzo de 2021; \\
+Documento externo IESS-SDNGD-2021-1023-E del 08 de enero de 2021 de la empresa Holcim S.A.;\\
+Requerimiento de Información INFO-11012\\
+Elaborado: DAIE \\}
+\endlastfoot
+\input{tablas/iess_demandantes.tex}
+\end{longtable}
+}
+\end{landscape}
