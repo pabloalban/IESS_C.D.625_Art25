@@ -23,5 +23,6 @@ source( 'R/400_preparar_reporte.R', encoding = 'UTF-8', echo = FALSE )
 # Reporte LaTeX-------------------------------------------------------------------------------------
 source( parametros$reporte_script, encoding = 'UTF-8', echo = FALSE )
 
+
 # Reportes excel------------------------------------------------------------------------------------
 #source( 'R/ces/601_reporte_balance_ces.R', encoding = 'UTF-8', echo = FALSE )
