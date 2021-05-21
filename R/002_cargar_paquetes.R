@@ -45,7 +45,7 @@ suppressPackageStartupMessages( library( mapproj ) )
 suppressPackageStartupMessages( library( lubridate ) )
 suppressPackageStartupMessages( library( tidyverse ) )
 suppressPackageStartupMessages( library( xlsx ) )
-#suppressPackageStartupMessages( library( openxlsx ) )
+suppressPackageStartupMessages( library( vroom ) )
 
 suppressMessages( loadfonts() )
 

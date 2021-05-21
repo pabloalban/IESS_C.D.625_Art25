@@ -57,7 +57,7 @@
 @
 
 % <<cap06, child='07_demografia.Rnw'>>=
-% @
+%  @
 % 
 % <<cap08, child='08_metodologia.Rnw'>>=
 % @
