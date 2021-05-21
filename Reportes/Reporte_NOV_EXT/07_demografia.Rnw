@@ -1,81 +1,1793 @@
 %---------------------------------------------------------------------------------------------------
-% \chapter[Análisis demográfico, de salarios y prestaciones]{Análisis demográfico, de salarios y 
-% prestaciones}
-% \label{chp_demog}
+\chapter[Análisis de la información financiera y contable con sus tendencias]{Análisis de la
+información financiera y contable con sus tendencias}
+\label{chp_infofinan}
+
+En este capítulo se presenta un análisis de las principales cuentas del balance al último ejercicio económico: total de activos, reservas, ingresos por aportes, otros ingresos, egresos por pago de beneficios y prestaciones, otros egresos, entre otros.
+
+Cabe mencionar que los balances del IESS en el periodo 2010 al 2020 han sufrido cambios en los códigos de cuentas, creación de cuentas, signo negativo para la representación del pasivo, patrimonio e ingresos; esto debido a las resoluciones emitidas por la Superintendencia de Bancos, siendo estas las Resoluciones No. 0859 del año 2012 y No. 0823 de año 2014, por tanto los balances financieros no son auto consistentes y comparables. Sin embargo por razones técnicas y de análisis se estandarizó la data con números absolutos para todo el capítulo.
+
+% 
+% % Activos contables --------------------------------------------------------------------------------
+% \section{Total de activos contables}
+% \label{chp_infofinan:activos}
+% 
+% A continuación, en la tabla \ref{tab:iess_activo_ivm} se presenta la evolución del activo contable del fondo del IVM para el período 2010--2020.
+% 
+% % Total de activos ---------------------------------------------------------------------------------
+% 
+% \begin{figure}[H]
+% \begin{center}
+% \caption{Activo del Fondo de IVM a 31 de diciembre de cada año (En millones de dólares)}
+% \label{fig:iess_activo_ivm}
+% \includegraphics[scale=0.88]{graficos/iess_activo_ivm.png}
+% \caption*{\scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+% \end{center}
+% \end{figure}
+% 
+% \begin{table}[H]
+%   \begin{center} % centering{}
+%   \caption{Activo del Fondo de IVM a 31 de diciembre de cada año}
+%   \label{tab:iess_activo_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{rrrr} %r right
+%     \toprule
+%     Año	& Activo	& Incremento anual & Incremento \\
+%         &         &                  & porcentual anual \\
+%     \midrule
+%     \input{tablas/iess_activo_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% Se observa que los activos entre el año 2020 con respecto al 2010 se incrementaron en un 6,77\% en promedio anual, reflejando el pico  más alto en el 2015 por un valor de USD. 9.601.539.775,49. Sin embargo, a partir del 2016 se evidencia un decrecimiento en el activo debido a la eliminación del 40\% de la contribución del Estado para el pago de pensiones; y, a la aplicación de la Resolución No. C.D. 501 del 13 de noviembre de 2015, reformada por la Resolución No. C.D. 515 de 30 de marzo de 2016 donde disminuyó los porcentajes de aportación para el Seguro analizado; lo que obligó acudir a las reservas para cubrir las necesidades de pago de las pensiones.
+% 
+% Cabe mencionar que a pesar del decrecimiento generado a partir del año 2016 se evidencia un incremento porcentual anual del 27,47\% para el año 2019 debido a la cuenta “Fondos Disponibles”, misma que paso de USD. 11.485.362,26 (2016) a USD. 137.481.896,82 (2019) reflejando una tasa de variación del 1097\%.
+% 
+% En la tabla \ref{tab:iess_comp_activo_ivm}, se presentan los componentes del activo del Fondo de IVM para el período 2010 al 2020.
+% 
+% % Componentes de los activos -----------------------------------------------------------------
+% 
+% \begin{landscape}
+% \vspace*{\fill}
+% \begin{table}[H]
+%   %\begin{center} % centering{}
+%   \caption{Componentes del activo del Fondo de IVM a 31 de diciembre de cada año}
+%   \label{tab:iess_comp_activo_ivm}
+%   {\fontsize{8}{9}\selectfont
+%   \begin{tabular}{rrrrrrrrrrrr} %r right
+%     \toprule
+%     Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+%     de las cuentas  &      &      &      &      &      &      &      &      &      &      &      \\
+%     \midrule
+%     \input{tablas/iess_comp_activo_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   %\end{center}
+% \end{table}
+% 
+% \begin{quotation}
+% \textbf{Nota:} Cabe mencionar que los balances del IESS correspondientes al periodo 2010 al 2020 han sufrido cambios en los códigos y creación de cuentas, por lo que se presenta la variación y optimización; un ejemplo de lo mencionado se encuentra en los componentes del activo, donde algunas partidas fueron afectadas de la siguiente manera:
+% 
+% \begin{itemize}
+% \item Entre el 2010 al 2012 en los balances constan las cuentas: “Inversiones Deuda Renta Fija Sector Público” (7120), “Inversiones Privativas” (7130); a partir del 2014 dichas cuentas son optimizadas en una sola cuenta denominada “Inversiones”.
+% \item A partir del año 2015 la cuenta “Inversiones” cambia de denominación a “Recursos/Administra x El BIESS” con el código 714.
+% \item Desde el año 2013 al 2020 la cuenta “Deuda del Gobierno” pasa a ser una subcuenta de “Cuentas por Cobrar”, por tal motivo en la tabla \ref{tab:iess_comp_activo_ivm} no se refleja ningún valor por dicho concepto.
+%  \end{itemize}
+% \end{quotation}
+% 
+% \vspace*{\fill}
+% \end{landscape}
+% 
+% %---------------------------------------------------------------------------------------------------
+% \subsection{Análisis horizontal y vertical del activo}
+% \label{chp_infofinan:ana_hor_ver}
+% 
+% En las tablas \ref{tab:iess_activo_horiz_ivm} y \ref{tab:iess_activo_vert_ivm},
+% se presentan los análisis horizontal y vertical de los componentes del activo del Fondo de IVM para
+% el período 2010--2020.
+% 
+% % Analisis horizontal de los activos ------------------------------------------------------------------
+% 
+% \begin{table}[H]
+%   \begin{center} % centering{}
+%   \caption{Análisis horizontal del activo del Fondo de IVM a 31 de diciembre de cada año con
+%   respecto al año anterior (Valores en \%)}
+%   \label{tab:iess_activo_horiz_ivm}
+%  {\fontsize{6.5}{7}\selectfont
+%   \begin{tabular}{rrrrrrrrrrr}
+%     \toprule
+%     Descripción & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020  \\
+%     de las cuentas  &       &         &      &      &      &      &      &      &      &   \\
+%     \midrule
+%     \input{tablas/iess_activo_horiz_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% El crecimiento de los componentes del activo para el periodo analizado fue variable. Se evidencia que la cuenta “Fondos Disponibles” presenta tasas de crecimiento positivas del 158,33\% y 1430,33\%, siendo la más significativa entre el año 2018/2017; esto debido al incremento de USD. 217.798.437,80 en la subcuenta “Bancos”. Entre el año 2012 y 2015 existió un fuerte crecimiento de las inversiones, no obstante a partir del año 2016 comienza a decrecer llegando a una tasa de variación negativa de 0,13\% en el año 2020.
+% 
+% Con respecto a las “Cuentas por cobrar”, se observa que estas han crecido en el periodo analizado debido a la situación económica vivida por el país (con excepción del año 2015 y 2020). Cabe señalar que entre el año 2013/2012 dicha partida presentó una tasa de variación del 3258,29\% y entre el año 2019/2018 es del 140,54\% debido a la inclusión de la cuenta “Deuda de Estado”.
+% 
+% 
+% % Análisis vertical de los activos --------------------------------------------------------------------
+% 
+% \begin{table}[H]
+%   \begin{center} % centering{}
+%   \caption{Análisis vertical del activo del Fondo de IVM a 31 de diciembre de cada año (Valores en \%)}
+%   \label{tab:iess_activo_vert_ivm}
+%   {\fontsize{6.5}{7}\selectfont
+%    \begin{tabular}{rrrrrrrrrrrr} %r right
+%     \toprule
+%    Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+%     de las cuentas  &      &      &      &      &      &      &      &      &      &      &     \\
+%     \midrule
+%     \input{tablas/iess_activo_vert_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% La cuenta “Inversiones” constituye la mayor representatividad respecto al total del activo en el periodo analizado, con un crecimiento promedio anual del 76,79\%. Dicha partida llego a su pico más alto en el año 2015 con un porcentaje del 88,92\%, a partir del 2016 esta cuenta disminuyó su importancia dentro del activo alcanzando el 68,85\% en el 2020; es decir pasó de USD. 7.468.154.202,9 a USD. 5.746.473.714,17 respectivamente.
+% 
+% La cuenta “Deuda del Gobierno” represento hasta el año 2012 la segunda cuenta más representativa del activo, con el porcentaje más alto en el 2010 del 25,83\%. A partir del año 2013 dicha cuenta pasó a formar parte de las “Cuentas por Cobrar” manteniendo el segundo lugar, con un crecimiento promedio anual del 15\%. Cabe mencionar que el año 2019 alcanzo el porcentaje más elevado (27,58\%), mientras que en el 2020 decae aproximadamente en 2 puntos porcentuales.
+% 
+% %Inversiones ------------------------------------------------------
+% \subsection{Inversiones}
+% \label{chp_infofinan:inversiones}
+% 
+% La cuenta más importante del activo son las inversiones, la cual representa el 68,85\% del total de los activos al 2020. Estos recursos son administrados por el BIESS cuyo análisis se presenta en la sección 5.8.
+% 
+% 
+% % Cuentas por cobrar -----------------------------------------------------------------------------
+% \subsection{Cuentas por cobrar}
+% \label{chp_infofinan:cta_x_cobrar}
+% 
+% De acuerdo a la recomendación No. 4 literal a del Informe No. DNA7-0036-2018 del Examen Especial “A la preparación, ejecución, aprobación y aplicación de los estudios actuariales en el Instituto Ecuatoriano de Seguridad Social IESS y entidades relacionadas”, por el período comprendido entre el 1 de enero de 2012 y el 31 de diciembre de 2017, se procede analizar las cuentas por cobrar.
+% 
+% Debido a la optimización generada en el Plan de Cuentas, para el presente análisis se unificó los valores de “Deuda de Gobierno” de los años 2010 a 2012 como parte de “Cuentas por Cobrar” toda vez que a partir del año 2013 fueron agrupadas; es así que en la tabla \ref{tab:iess_cuentas_cobrar_ivm} se presenta la evolución del periodo 2010 al 2020.
+% 
+% \begin{figure}[H]
+% \begin{center}
+% \caption{Cuentas por cobrar del Fondo de IVM a 31 de diciembre de cada año (En millones de dólares)}
+% \label{fig:iess_cuentas_cobrar_ivm}
+% \includegraphics[scale=1]{graficos/iess_cuentas_cobrar_ivm.png}
+% \caption*{\scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+% \end{center}
+% \end{figure}
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Cuentas por cobrar del Fondo de IVM a 31 de diciembre de cada año}
+%   \label{tab:iess_cuentas_cobrar_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{rrrr}
+%     \toprule
+%     Año	& Cuentas por & Incremento anual & Incremento  \\
+%         & cobrar      &                  & porcentual anual \\
+%     \midrule
+%     \input{tablas/iess_cuentas_cobrar_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{\scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% Se observa que las “Cuentas por Cobrar” correspondientes al 2020 con respecto al 2010 incrementaron en un 69,21\%, siendo el año 2019 el punto más alto y el año 2015 el punto más bajo de la cuenta.
+% 
+% A partir del 2016 se muestra un crecimiento porcentual anual promedio de 30,94\%; el incremento que se visualiza en el 2019 se da debido al aumento de USD. 1.374.747.331,38 por concepto de la Deuda de Gobierno dentro de las cuentas por cobrar; sin embargo entre el 2020/2019 decrece en un -10,78\% por la liquidación de USD. 280.330.708,72.
+% 
+% 
+% % PASIVOS CONTABLES --------------------------------------------------------------------------------
+% \section{Total de pasivos contables}
+% \label{chp_infofinan:pasivos}
+% 
+% En la tabla \ref{tab:iess_pasivo_ivm} se presenta la evolución del pasivo contable del fondo del IVM por el período 2010 al 2020.
+% 
+% % Total de Pasivos ----------------------------------------------------------------------------
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Pasivo del Fondo de IVM a 31 de diciembre de cada año}
+%   \label{tab:iess_pasivo_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{rrrr}
+%     \toprule
+%     Año	& Pasivo & Incremento anual & Incremento \\
+%         &        &                  & porcentaje anual \\
+%     \midrule
+%     \input{tablas/iess_pasivo_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{\scriptsize Fuente: Balance General Consolidado por Fondos Administrados
+%   de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% Se observa que los pasivos correspondientes al 2020 con respecto al 2010 decrecieron en un -43,25\%, el incremento promedio anual fue del 35,80\%. Desde el 2010 hasta el 2015 se observa un decrecimiento del pasivo; sin embargo a partir del 2016 inicia un incremento paulatino, siendo el pico más alto en el año 2019 con una tasa de crecimiento del 505,30\% respecto al año anterior.
+% 
+% Cabe mencionar que en el año 2020 se evidencia una tasa de variación negativa del -57,77\% debido a la disminución de la subcuenta “Proveedores” en USD. 309.479.852,11.
+% 
+% 
+% \begin{figure}[H]
+% \begin{center}
+% \caption{Pasivo del Fondo de IVM a 31 de diciembre de cada año (En millones de dólares)}
+% \label{fig:iess_pasivo_ivm}
+% \includegraphics[scale=1]{graficos/iess_pasivo_ivm.png}
+% \caption*{\scriptsize Fuente: Balance General Consolidado por Fondos Administrados
+%   de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+% \end{center}
+% \end{figure}
+% 
+% % Componentes de los pasivos ---------------------------------------------------------------------
+% 
+% Se presenta en la tabla \ref{tab:iess_comp_pasivo_ivm}, los componentes del pasivo del
+% Fondo de IVM, para el período comprendido entre el 2010 y 2020.
+% 
+% \begin{landscape}
+% \vspace*{\fill}
+% \begin{table}[H]
+%   \begin{center} % centering{}
+%   \caption{Componentes del pasivo del Fondo de IVM a 31 de diciembre de cada año. (En millones de dólares)}
+%   \label{tab:iess_comp_pasivo_ivm}
+%   {\fontsize{6.9}{8}\selectfont
+%   \begin{tabular}{rrrrrrrrrrrr} %r right
+%     \toprule
+%     Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+%     de las cuentas  &      &      &      &      &      &      &      &      &      &      &      \\
+%     \midrule
+%     \input{tablas/iess_comp_pasivo_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% \begin{quotation}
+% \textbf{Nota:} Los balances del IESS en el período 2010-2020 sufrieron cambios en los códigos de cuentas: creación de cuentas, representación del pasivo con signo negativo, entre otros; es así que el Plan de Cuentas del pasivo en el tiempo sufrió las siguientes modificaciones:
+% 
+% \begin{itemize}
+% \item Hasta el año 2012 el pasivo contaba con las cuentas “Prestaciones y Beneficios”, “Cuentas por Pagar” y “Pasivo Diferido” representadas por los códigos: 7210, 7215 y 7225 respectivamente.
+% \item En los años 2013 y 2014 se eliminan los códigos 7210, 7215, 7225 y se sintetizan en una sola cuenta denominada “Cuentas por Pagar” establecida dentro de Plan de Cuentas con el código 21.
+% \item A partir del año 2015 al 2020 la partida con el código 21 es optimizada en dos cuentas “Pasivos corrientes (721)” y “Pasivos no corrientes (722)”.
+% \end{itemize}
+% \end{quotation}
+% 
+% \vspace*{\fill}
+% \end{landscape}
+% 
+% En los años 2010, 2011 y 2012 se observa un descenso precipitado en los pasivos, debido que se liquidó la cuenta “Obligaciones Prestacionales (2101)” en la que se encontraba inmersa “CxP Ben. Magisterio – Estado”.
+% 
+% Posteriormente, el mayor crecimiento del pasivo se dio en el 2019; misma que se elimina en el 2020.
+% 
+% %---------------------------------------------------------------------------------------------------
+% \subsection{Análisis horizontal y vertical del pasivo}
+% \label{chp_infofinan:ana_horiz_vert}
+% 
+% En las siguientes tablas \ref{tab:iess_pasivo_horiz_ivm} y \ref{tab:iess_pasivo_vert_ivm}
+% siguientes, se presentan los análisis horizontal y vertical de los componentes del pasivo del Fondo de IVM para el período 2010 al 2020.
+% 
+% % Analisis horizontal de los pasivos ----------------------------------------------------------------
+% 
+% \begin{table}[H]
+%   \begin{center} % centering{}
+%   \caption{Análisis horizontal del pasivo del Fondo de IVM a 31 de diciembre de cada año con
+%   respecto al año anterior (Valores en \%)}
+%   \label{tab:iess_pasivo_horiz_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{rrrrrrrrrrr} %r right
+%     \toprule
+%     Descripción & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020  \\
+%     de las cuentas  &       &         &      &      &      &      &      &      &      &   \\
+%     \midrule
+%     \input{tablas/iess_pasivo_horiz_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% En el año 2010 y el 2014 se observa un decrecimiento año a año del pasivo ocasionado por el decrecimiento de la cuenta  “Prestaciones y Beneficios” y “Cuentas por Pagar”. Sin embargo los pasivos corrientes presentan la mayor variación en los año 2017 y 2019, con un crecimiento porcentual del 1467,24\% y 6851,88\% respectivamente; debido que en el 2017 la subcuenta “Proveedores” aumento en 1562,7\%, es decir una diferencia del USD. 50.043.302,85 respecto al año anterior; mientras que en el 2019 se crea una subcuenta denominada “Proveedores Públicos Por Pagar” por un valor de USD. 297.423.623,49.
+% 
+% Finalmente en el 2020 dicha cuenta fue liquidada ocasionado una disminución total del pasivo en -57,77\%, lo que representa una diferencia de USD. 641.902.460,45 respecto al año anterior.
+% 
+% % Análisis vertical de los pasivos ------------------------------------------------------------------
+% 
+% \begin{table}[H]
+%   \begin{center} % centering{}
+%   \caption{Análisis vertical del Pasivo del Fondo de IVM a 31 de diciembre de cada año (Valores en \%)}
+%   \label{tab:iess_pasivo_vert_ivm}
+%   {\fontsize{8}{10}\selectfont
+%    \begin{tabular}{rrrrrrrrrrrr} %r right
+%     \toprule
+%    Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+%     de las cuentas  &      &      &      &      &      &      &      &      &      &      &     \\
+%     \midrule
+%     \input{tablas/iess_pasivo_vert_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% Entre el año 2010 al 2014 se observa que la cuenta con mayor representatividad del total del pasivo fue “Cuentas por pagar”; sin embargo a partir del 2015 al 2020 la cuenta “Pasivos No Corrientes” pasó a ocupar el primer lugar, con un crecimiento positivo en el periodo analizado.
+% 
+% En los años 2016 y 2020 se observa la mayor representatividad respecto al pasivo total con un  porcentaje del 98,14\% y 98,56\% respectivamente.
+% 
+% 
+% %---------------------------------------------------------------------------------------------------
+% \subsection{Cuentas por pagar}
+% \label{chp_infofinan:cta_x_pagar}
+% 
+% Observando lo determinado en la recomendación No. 4 literal a del Informe No. DNA7-0036-2018 del Examen Especial “A la preparación, ejecución, aprobación y aplicación de los estudios actuariales en el Instituto Ecuatoriano de Seguridad Social IESS y entidades relacionadas”, por el período comprendido entre el 1 de enero de 2012 y el 31 de diciembre de 2017, se procede analizar las cuentas por pagar.
+% 
+% A continuación, en la tabla \ref{tab:iess_cuentas_pagar_ivm} se presenta la evolución de las cuentas por pagar del fondo del IVM por el período 2010 al 2020.
+% 
+% % Cuentas por pagar -------------------------------------------------------------------------------
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Cuentas por pagar del fondo de IVM a 31 de diciembre de cada año}
+%   \label{tab:iess_cuentas_pagar_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{rrrr}
+%     \toprule
+%       Año	& Cuentas por & Incremento anual & Incremento  \\
+%           & pagar       &                  & porcentual anual \\
+%     \midrule
+%     \input{tablas/iess_cuentas_pagar_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{\scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% Debido que los balances del IESS en el período 2010-2020 han sufrido cambios en el Plan de Cuentas, es necesario aclarar que para el análisis de las cuentas por pagar la DAIE unificó las partidas. Por cuanto a partir del año 2012 al 2014 se encuentra registrada como “Cuenta por Pagar”, y a partir del año 2015 al 2020 se remplaza por “Proveedores”.
+% 
+% \begin{figure}[H]
+% \begin{center}
+% \caption{Cuentas por pagar del Fondo de IVM a 31 de diciembre de cada año (En millones de dólares)}
+% \label{fig:iess_cuentas_pagar_ivm}
+% \includegraphics[scale=1]{graficos/iess_cuentas_pagar_ivm.png}
+%   \caption*{\scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+% \end{center}
+% \end{figure}
+% 
+% Se observa que las “cuentas por pagar” correspondientes al año 2020 con respecto al 2010 decrecieron en -97,12\% en el periodo analizado. Los picos más altos se dan en los años 2011 y 2019 con una tasa de variación del 69,32\% y 7210,63\% respectivamente, siendo el 2019 el más significativo debido a la creación de la subcuenta “Proveedores Públicos Por Pagar” por un valor de USD. 297.423.623,49; así como el incremento de USD. 9.334.145,23 en “Cuentas Por Pagar Sistemas Esp” respecto al año anterior.
+% 
+% Sin embargo en el 2020 se evidencia un fuerte decrecimiento del -97,83\% con una diferencia del USD. 296.361.653,29 respecto al 2019, esto debido a la liquidación la subcuenta “Proveedores Públicos Por Pagar”; así como la disminución de valores por pago de subcuentas “Beneficiarios Por Pagar” y “Retenciones SRI”.
+% 
+% 
+% %Patrimonio contable ------------------------------------------------------------------------------
+% \section{Patrimonio}
+% \label{chp_infofinan:patrimonio}
+% 
+% La tabla \ref{tab:iess_patrimonio_ivm}, muestra la evolución del patrimonio del fondo de IVM para el
+% período 2010 al 2020.
+% 
+% 
+% \begin{figure}[H]
+% \begin{center}
+% \caption{Patrimonio del Fondo de IVM a 31 de diciembre de cada año (En millones de dólares)}
+% \label{fig:iess_patrimonio_ivm}
+% \includegraphics[scale=1]{graficos/iess_patrimonio_ivm.png}
+%  \caption*{\scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+% \end{center}
+% \end{figure}
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Patrimonio del \Sexpr{REP_seg} a 31 de diciembre de cada año}
+%   \label{tab:iess_patrimonio_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{rrrr}
+%     \toprule
+%     Año	& Patrimonio	& Incremento anual	& Incremento  \\
+%         &             &                   & porcentual anual \\
+%     \midrule
+%     \input{tablas/iess_patrimonio_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{\scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+%  El Patrimonio de IVM mantuvo una tasa de crecimiento del 101,11\% entre el año 2020 al 2010.  Se observa que desde el 2010 al 2015 mantuvo un incremento promedio anual del 19,54\%; sin embargo a partir del año 2016 se registraron decrecimientos año a año hasta el 2018 debido a la aplicación de la Resolución No. C.D. 501 de 13 de noviembre de 2015, reformada por la Resolución No C.D. 515 de 30 de marzo de 2016; y, la eliminación de la contribución del 40\% del Estado para el pago de las pensiones generando una disminución del patrimonio de USD. 2.922.150.815,22.
+% 
+% \begin{landscape}
+% Entre el 2019 y 2020 existe un crecimiento porcentual anual del 14,06\% y del 5,54\% respectivamente, considerado el más alto en el 2019 respecto al año anterior con una diferencia de USD. 920.227.626,27.
+% 
+% % Componentes del patrimonio  ---------------------------------------------------------------------
+% 
+% 
+% En la tabla \ref{tab:iess_comp_patrimonio_ivm}, los componentes del patrimonio del Fondo de IVM, para el período comprendido entre el 2010 al 2020.
+% \vspace*{\fill}
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Análisis de los componentes del Patrimonio del Fondo de IVM a 31 de diciembre de cada año (En millones de dólares)}
+%   \label{tab:iess_comp_patrimonio_ivm}
+%   {\fontsize{6.9}{8}\selectfont
+%   \begin{tabular}{rrrrrrrrrrrr}
+%     \toprule
+%      Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+%      de las cuentas  &      &      &      &      &      &      &      &      &      &      &      \\
+%     \midrule
+%     \input{tablas/iess_comp_patrimonio_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{\scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% \begin{quotation}
+% \textbf{Nota:} Cabe mencionar que los balances del IESS en el periodo 2010 al 2020 han sufrido cambios en los códigos de cuentas, creación de cuentas, por lo que presenta variación y optimización en las siguientes partidas:
+% 
+% \begin{itemize}
+% \item Entre el año 2010 al 2014  el Patrimonio  poseía tres cuentas como son “Fondos Capitalizados”,  “Resultados” y  “Superávit Revaluación” ; a partir del 2015  se crea la partida “Reservas”  en la que se consolida como una subcuenta “Superávit Revaluación” .
+% \item Del mismo modo en el 2015 y 2016 aparece la cuenta “Aportes Patrimoniales”, misma que es suprimida a partir del año 2017.
+% \end{itemize}
+% \end{quotation}
+% \vspace*{\fill}
+% \end{landscape}
+% 
+% % -----------------------------------------------------------------------------------
+% \subsection{Análisis horizontal y vertical del patrimonio}
+% \label{chp_infofinan:ana_horiz_vert_patrimonio}
+% %
+% En las siguientes tablas \ref{tab:iess_patrimonio_horiz_ivm} y \ref{tab:iess_patrimonio_vert_ivm} siguientes, se presentan los análisis horizontal y vertical de los componentes del Patrimonio del Fondo de IVM para el período 2010-2020.
+% 
+% % Análisis horizontal del patrimonio -------------------------------------------------
+% \begin{table}[H]
+%   \begin{center} % centering{}
+%   \caption{Análisis horizontal del patrimonio del Fondo de IVM a 31 de diciembre de cada año con respecto al año anterior (Valores en \%)}
+%   \label{tab:iess_patrimonio_horiz_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{rrrrrrrrrrr} %r right
+%     \toprule
+%     Descripción     & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020 \\
+%     de las cuentas  &           &           &           &           &           &          &            &           &           &   \\
+%     \midrule
+%     \input{tablas/iess_patrimonio_horiz_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% Las variaciones más elevadas se presentaron en las cuentas “Resultados”, “Superávit por Revaluación” y “Reservas”; siendo la más significativa superávit con un crecimiento del 225,53\% entre el año 2014/2013, marcando una diferencia de USD. 16.774.488,75 debido a la revaluación de activos.
+% 
+% Sin embargo la cuenta que decreció en mayor proporción es la de “Resultados”, misma que presenta una variación negativa del -356,38\% entre el 2016/2015.
+% 
+% % Análisis vertical del patrimonio --------------------------------------------------------------
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Análisis vertical del Patrimonio del Fondo de IVM a 31 de diciembre de cada año (Valores en \%)}
+%   \label{tab:iess_patrimonio_vert_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{rrrrrrrrrrrr}
+%     \toprule
+%     Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+%     de las cuentas  &      &      &      &      &      &      &      &      &      &      &     \\
+%     \midrule
+%     \input{tablas/iess_patrimonio_vert_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{\scriptsize Fuente: Balance General Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% La cuenta con mayor representatividad dentro del Patrimonio es “Fondos Capitalizados” con un porcentaje promedio anual del 89,34\% en el periodo analizado.
+% El año 2010 posee el porcentaje de representatividad más bajo del periodo analizado con el 59,66\%; sin embargo a partir del 2016 supera el 100\% debido que el total del Patrimonio se netea con las pérdidas generadas en esos años dentro de la cuenta Resultados.
+% 
+% 
+% % INGRESOS   ---------------------------------------------------------------------------------------
+% \section{Ingresos}
+% \label{chp_infofinan:ingresos_apo}
+% 
+% En la tabla \ref{tab:iess_ingresos_ivm}, se presenta la evolución de los ingresos del Fondo de IVM en el periodo 2010 al 2020 por concepto de aportes de afiliados, de jubilados, del Gobierno, el aporte del 0,10\% por la Ley Orgánica de Discapacidades, ingresos financieros, entre otros.
+% 
+% \begin{table}[H]
+%   \centering
+%   \caption{Evolución histórica de los Ingresos del Fondo del Seguro de IVM a 31 de diciembre de cada año}
+%   \label{tab:iess_ingresos_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{rrrr}
+%     \toprule
+%     AÑO  &  Ingresos  & Incremento & Incremento Porcentual \\
+%          &            & Anual      & Anual                  \\
+%     \midrule
+%     \input{tablas/iess_ingresos_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados - DNGF. \\
+%   Elaborado: DAIE.}
+% \end{table}
+% 
+% El crecimiento de los ingresos del Fondo fue cambiante durante el período analizado, con una tasa de crecimiento del 136\%. El mayor incremento interanual se dio en el 2019 con 79,52\%, generando una  diferencia de USD. 2.284.625.779,33 respecto al 2018; mientras que el 2016 registra el mayor decrecimiento con -34,20\%, lo que representa una disminución de USD. 1.168.892.173,29 respecto al año anterior.
+% 
+% % -------------------------------------------------------------------------------------------------
+% A continuación, en la tabla \ref{tab:iess_comp_ingreso_ivm} se presenta los componentes de los ingresos del Fondo de IVM.
+% \begin{landscape}
+% \vspace*{\fill}
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución de los componentes del ingreso del IVM}
+%   \label{tab:iess_comp_ingreso_ivm}
+%   {\fontsize{6.9}{8}\selectfont
+%   \begin{tabular}{rrrrrrrrrrrr}
+%     \toprule
+%         Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\            de las cuentas  &      &      &      &      &      &      &      &      &      &      &     \\
+%     \midrule
+%     \input{tablas/iess_comp_ingreso_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% Los ingresos del fondo disminuyeron a partir del 2015, por el impacto de la eliminación del 40\% de la contribución del Estado para el pago de las pensiones, el cambio de la tasa de aportación y la situación económica. Sin embargo a partir del año 2019 se visualiza un incremento significativo del total de los ingresos en USD. 2.284.625.779,33 respecto al año anterior, en gran medida debido al aumento de la subcuenta “Contribuciones del Estado” en USD. 1.622.279.982,49.
+% \vspace*{\fill}
+% \end{landscape}
+% 
+% % Analisis horizontal y vertical del ingreso ------------------------------------------------------------------------
+% 
+% \subsection{Análisis horizontal y vertical del ingreso}
+% \label{chp_infofinan:ana_horiz_vert}
+% 
+% En las siguientes tablas \ref{tab:iess_ingreso_horiz_ivm} y \ref{tab:iess_ingreso_vert_ivm}, se presentan los análisis horizontal y vertical de los ingresos del Fondo de IVM del período 2010 a 2020.
+% 
+% % % Analisis horizontal --------------------------------------------
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Análisis horizontal de los ingresos por aportes del IVM. Porcentaje de variación de cada año con respecto al año anterior. }
+%   \label{tab:iess_ingreso_horiz_ivm}
+%   {\fontsize{6.9}{8}\selectfont
+%   \begin{tabular}{rrrrrrrrrrr}
+%     \toprule
+%         Descripción & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020  \\
+%      de las cuentas  &       &         &      &      &      &      &      &      &      &   \\
+%     \midrule
+%     \input{tablas/iess_ingreso_horiz_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% La evolución de los aportes al Fondo de IVM se puede dividir en tres períodos:
+% \begin{enumerate}
+% \item Entre 2010 y el 2014 se caracterizó por un fuerte crecimiento de los aportes, en promedio el ingreso total se incrementó un 17,09\% anual;
+% \item En el 2015 y 2016 decrecieron los aportes debido al cambio de las tasas de aportación; siendo el más significativo del periodo analizado (2016/2015) con una variación negativa del -34,20\%, representando una disminución de USD. 1.168.892.173,29.
+% \item Entre el 2018 al 2020 se evidencia una variabilidad en el total de los ingresos, misma que en el 2018 obtuvo la menor tasa de decrecimiento (-1,87\%) de todo el periodo analizado; a diferencia del año 2019 en la que los ingresos aumentan significativamente en 79,52\% debido a la contribución del Estado por aporte del 40\% y 100\% de las pensiones entregadas por el Fondo, además incluye el aporte de amas de casa, reservas matemáticas de telecomunicaciones y contribución para Héroes y Heroínas.\\
+% Finalmente se observa que en el 2020 los ingresos caen en -4,45\%, debido a la disminución de USD. 20.457.695,27 en la subcuenta “Intereses Ganados” (considerando la crisis sanitaria vivida).
+% \end{enumerate}
+% 
+% % Analisis vertical ------------------------------------------------------------
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Análisis vertical de los ingresos por aportes del IVM. Valores en porcentaje}
+%   \label{tab:iess_ingreso_vert_ivm}
+%   {\fontsize{6.9}{8}\selectfont
+%   \begin{tabular}{rrrrrrrrrrrr}
+%     \toprule
+%      Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+%      de las cuentas  &      &      &      &      &      &      &      &      &      &      &     \\
+%     \midrule
+%     \input{tablas/iess_ingreso_vert_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{\scriptsize Fuente:Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% 
+% La cuenta con mayor representatividad es “Ingresos de la Operación (Aportes IESS)”, en promedio esta constituyó el 85\% del total de ingresos percibidos en el período 2010 al 2020; misma que está conformada por el aporte de afiliados y empleadores, además de la contribución del Estado para el pago de pensiones.
+% 
+% En segundo lugar se posiciona la cuenta “Ingresos Financieros”, en promedio represento el 14,32\% del total de ingresos analizados en el periodo. En los años 2016 y 2017 representó el 26,09\% y 31,11\% de los ingresos siendo los porcentajes más altos del periodo debido a la subcuenta “Inversi No Privativa Admi BIES”; mientras que el en el 2011 su representatividad fue la más baja con un 6,69%.
+% 
+% % Ingresos por aportes -----------------------------------------------------------------------------
+% \subsection{Ingresos por aportes}
+% 
+% A continuación en la tabla \ref{tab:iess_ingresosxaportes_ivm} se presenta la evolución de los ingresos a este fondo por concepto de aportes de los afiliados, de los jubilados, el aporte del 0,10\% por la Ley Orgánica de Discapacidades, Aporte personal Amas de Casa y Aporte ley de Discapacidad ISSPOL.
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución de ingresos por aportes del IVM}
+%   \label{tab:iess_ingresosxaportes_ivm}
+%   {\fontsize{7}{8}\selectfont
+%   \begin{tabular}{rrrrrrrrr}
+%  \toprule
+%     Año  &  Aportes   &  Aportes   &     Aportes     &  Aportes     &  Aporte ley   & Aporte personal  & Aporte Ley           & Aportes \\
+%          & personales & patronales &    jubilados    & adicionales  & Discapacidad  & Amas de Casa     &  Discapacidad ISSPOL & afiliados \\
+%          &            &            & y pensionistas  & magisterio   &               &                  &                      &          \\
+% 
+%     \midrule
+%     \input{tablas/iess_ingresosxaportes_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% Es preciso señalar que la Resolución No. C.D. 460 de 12 de diciembre de 2013 determinó el aporte del 0,10\% para financiar las prestaciones previstas en la Ley Orgánica de Discapacidades. En la Resolución No. C.D. 463 de 28 de enero de 2014, se establece su aplicación a partir del 1 de marzo del 2014.
+% 
+% \begin{figure}[H]
+% \begin{center}
+% \caption{Evolución de los ingresos por aportes del IVM (En millones de dólares)}
+% \label{fig:iess_ingresosxaportes_ivm}
+% \includegraphics[scale=1]{graficos/iess_ingresosxaportes_ivm.png}
+%   \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+% \end{center}
+% \end{figure}
+% 
+% \begin{quotation}
+% \textbf{Nota:} A partir del año 2017 los aportes de los jubilados para decimotercera y decimocuarta pensiones, así como los aportes de los perteneciente a la Ley Orgánica de Discapacidades se incluyen en el aporte general de afiliados en los estados financieros.
+% \end{quotation}
+% 
+% En la tabla \ref{tab:iess_ingresosxaportes_ivm} se observa que los ingresos por aportes en el periodo analizado tuvieron una tasa de crecimiento positiva de 103\%, pasando de USD. 1.217.079.611,96 en el 2010 a USD. 2.466.058.036,86 en el 2020.
+% 
+% Los ingresos por aportes se duplican entre los años 2010 hasta el 2015; sin embargo, para el año 2016 se observa un decrecimiento (siendo el más significativo) del 38,62\% (950.928.834 millones de dólares) por la aplicación de la Resolución No. C.D. 501 de 13 de noviembre de 2015, reformada por la Resolución No. C.D. 515 de 30 de marzo de 2016.
+% 
+% A partir del año 2017 hasta el 2019 los aportes mantienen un crecimiento paulatino del 22,70\%; sin embargo en el 2020 se observa una tasa de decrecimiento del 11,61\%, representando una disminución de USD. 323.990.723,23 respecto al año pasado, esto debido a la crisis sanitaria vivida en el país y por ende una disminución de todos los aportes con excepción de los Aportes Patronales que tuvieron un incremento del 38\%. Finalmente el aporte de los afiliados activos y empleadores representó el 97\% del total.
+% 
+% 
+% %Otros ingresos---------------------------------------------------------------------
+% \subsection{Otros ingresos}
+% \label{chp_infofinan:ingresos_contrib_estado}
+% 
+% Para este análisis se ha considerado la cuenta más importante que es la ``Contribución del Estado'', cuya evolución histórica se presenta en la tabla \ref{tab:iess_contribucion_estado_ivm} y figura \ref{fig:iess_contribucion_estado_ivm}.
+% 
+% \begin{figure}[H]
+% \begin{center}
+% \caption{Evolución de la contribución del Estado (En millones de dólares)}
+% \label{fig:iess_contribucion_estado_ivm}
+% \includegraphics[scale=1]{graficos/iess_contribucion_estado_ivm.png}
+%  \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+% \end{center}
+% \end{figure}
+% 
+% Mediante la expedición de la Ley Orgánica para la Justicia Laboral y Reconocimiento del Trabajo en el Hogar, publicado en el Tercer Suplemento del Registro Oficial No. 483 de 20 de abril de 2015, el Estado deja de contribuir con el 40\% del valor de las pensiones.
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución histórica de la contribución del Estado.\\
+%   Valores en porcentaje. }
+%   \label{tab:iess_contribucion_estado_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{rrrr}
+%   \toprule
+%   Año & Contribución del & Pensiones pagadas & Participación del Estado \\
+%       &           Estado & de invalidez,     & en el pago de \\
+%       &                  & Vejez y Montepío  & pensiones \\
+%   \midrule
+%   \input{tablas/iess_contribEstadovsPensPag_ivm.tex}
+%   \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% En los años 2015, 2016, 2017 y 2018 la cuenta “Contribución del Estado” sufre una disminución drástica, con una tasa de variación negativa del 61\% (2018/2015); cabe mencionar que los valores que aparecen en dichos años se dan por concepto del pago de las reservas de los seguros adicionales e intereses que son manejados por el IVM.
+% 
+% A partir del año 2019 al 2020 se evidencia un crecimiento de la contribución del estado por USD. 124.727.419,62; con una tasa de variación del 7\%. Con respecto a la participación del pago de pensiones, se evidencia que en los dos últimos años incrementa en 42\%, siendo igual al año 2013 y 2014 previo a la expedición de la Ley Orgánica para la Justicia Laboral y Reconocimiento del Trabajo en el Hogar.
+% 
+% %-----------------GASTOS ---------------------------------------------------
+% \section{Gastos}
+% \label{chp_infofinan:gastos}
+% 
+% En la tabla \ref{tab:iess_gastos_ivm} se presenta la evolución histórica de los gastos del
+% Fondo del Seguro de IVM a 31 de diciembre de cada año.
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución histórica de los gastos del Fondo del Seguro de IVM a 31 de diciembre de cada año}
+%   \label{tab:iess_gastos_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{*{4}{r}}
+%     \toprule
+%     AÑO  &  Gastos  & Incremento & Incremento Porcentual \\
+%          &          & anual      & Anual                  \\
+%     \midrule
+%     \input{tablas/iess_gastos_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados - DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% Entre el año 2020 al 2010 existe una tasa de crecimiento significativa del 251,33\%; es así que desde el 2010 al 2013 se observa un crecimiento acelerado de los gastos del IVM, con un incremento interanual promedio de 17\%.
+% 
+% A partir del año 2014 el incremento del gasto se ha moderado, a tal punto que en el año 2020 registró un porcentaje de crecimiento bajo del 8,17\%.
+% 
+% 
+% 
+%  % Componentes de los egresos ---------------------------------------------------------------------
+% En la tabla \ref{tab:iess_comp_egresos_ivm} se presenta la evolución de los componentes de los egresos por prestaciones
+% 
+% \begin{landscape}
+% \vspace*{\fill}
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución de los componentes de los egresos por prestaciones del IVM}
+%   \label{tab:iess_comp_egresos_ivm}
+%   {\fontsize{6.5}{8}\selectfont
+%   \begin{tabular}{rrrrrrrrrrrr}
+%     \toprule
+%     Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+%    de las cuentas  &      &      &      &      &      &      &      &      &      &      &      \\
+%     \midrule
+%     \input{tablas/iess_comp_egresos_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+% \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+% Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% \begin{quotation}
+% \textbf{Nota:} Cabe mencionar que los balances del IESS en el periodo 2010 al 2020 han sufrido cambios en los códigos de cuentas, creación de cuentas, por lo que presenta variación y optimización en las siguientes partidas:
+% 
+% \begin{itemize}
+% \item Entre el año 2010 al 2012  los Gastos poseían seis cuentas como son “Egresos Prestacionales IESS”,  “Pérdida Venta Activos”, “Gastos Operación y Ser. Varios”, “Gastos Ejercicios Anteriores”, “Deprec. Propiedades y Eq. Especial” y  “Provisiones”;
+% \item	A partir del 2013 la cuenta  “Egresos Prestacionales IESS” cambia de nombre a “Gastos Operacionales Directos”, y se crea la cuenta “Gastos de Administración”  en la que se consolida como una subcuenta las depreciaciones.
+%  \end{itemize}
+% \end{quotation}
+% \vspace*{\fill}
+% \end{landscape}
+% 
+% % --------------------------------------------------------------------
+% \subsection{Análisis horizontal y vertical de los componentes del gasto}
+% \label{chp_infofinan:egresos_horiz_vert}
+% 
+% En las tablas \ref{tab:iess_egresos_horiz_ivm} y \ref{tab:iess_egresos_vert_ivm}, se presentan los análisis horizontal y vertical de los gastos del Fondo de IVM del período 2010 a 2020.
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Análisis horizontal de la evolución de los gastos del fondo de IVM}
+%   \label{tab:iess_egresos_horiz_ivm}
+%   {\fontsize{7}{7}\selectfont
+%   \begin{tabular}{rrrrrrrrrrr}
+%     \toprule
+%     Descripción & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017& 2018 & 2019& 2020  \\
+%     de las cuentas  &       &         &      &      &      &      &      &      &      &   \\
+%     \midrule
+%     \input{tablas/iess_egresos_horiz_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+% \caption*{\scriptsize Fuente: Balance de Resultados Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+% Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% El incremento de los egresos por prestaciones pagadas (Gastos Operacionales Directos) sigue una tendencia positiva entre el 2011 al 2017 con un crecimiento anual promedio del 16,49\%. El aumento sostenido de los egresos obedece principalmente al pensionamiento de afiliados y al aumento de las pensiones, mismas que crecieron de acuerdo con la inflación a partir del año 2016.
+% 
+% Sin embargo a partir del 2018 los “Gastos Operacionales Directos” crecen en menor proporción, pasando del 11,33\% (2017) a 7,78\% (2020).
+% 
+% 
+% % Análisis vertical de los egresos ------------------------------------------------------------------
+% 
+% \begin{table}[H]
+%   \begin{center} % centering{}
+%   \caption{Análisis vertical de la evolución de los gastos pagados por las prestaciones de IVM.
+% (Valores en porcentaje \%).}
+%   \label{tab:iess_egresos_vert_ivm}
+%   {\fontsize{8}{8}\selectfont
+%    \begin{tabular}{rrrrrrrrrrrr} %r right
+%     \toprule
+%    Descripción     & 2010 & 2011 & 2012 & 2013 & 2014 & 2015 & 2016 & 2017 & 2018 & 2019 & 2020\\
+%     de las cuentas  &      &      &      &      &      &      &      &      &      &      &     \\
+%     \midrule
+%     \input{tablas/iess_egresos_vert_ivm.tex}
+%     \bottomrule
+%   \end{tabular}
+%   }
+%   \caption*{ \scriptsize Fuente: Balance de Resultados Consolidado por Fondos Administrados de los Fondos Especializados-DNGF. \\
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% Los “Egresos Prestacionales/Gastos Operacionales Directos” es la cuenta con mayor representatividad del total de los egresos, con un peso superior al 95\% para el período analizado; debido que en la misma se encuentra los gastos por pensiones, gastos prestacionales por subsidios y otros gastos directos.
+% 
+% El segundo lugar lo ocupa la cuenta “Gastos Operación y Ser. Varios” en el periodo 2010 – 2012, en la que se encuentran rubros como gastos por comisiones, gastos por servicios bancarios e impuestos/tasas; a partir del año 2013 hasta el 2020 dicho lugar lo ocupa la cuenta “Gastos de Administración” con una representatividad promedio del 1,79\%, misma que se encuentra conformada por contribuciones y gastos por depreciaciones.
+% 
+% %Gastos prestacionales por pensiones ---------------------------------------------
+% 
+% \subsection{Gastos prestacionales por pensiones}
+% \label{chp_infofinan:iess_gastosprestpens_ivm}
+% 
+% Los egresos por pago de las pensiones de IVM para el período 2010 al 2020 se muestran a continuación en la tabla \ref{tab:iess_gastxprest_IVM}.
+% 
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución de egresos por prestaciones del IVM}
+%   \label{tab:iess_gastxprest_IVM}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{crr}
+%   \toprule
+%   Año  & Pensiones de Invalidez,  &  Tasa de variación de  \\
+%        & Vejez y Montepío         &  las pensiones pagadas \\
+%   \midrule
+%   \input{tablas/iess_gastxprest_IVM.tex}
+%   \bottomrule
+%   \end{tabular}
+%   }
+% \caption*{\scriptsize Fuente: Balance de Resultados Consolidado por Fondos Administrados de los Fondos Especializados - DNGF \\
+% Elaborado: DAIE.}
+% \end{center}
+% \end{table}
+% 
+% \begin{figure}[H]
+% \begin{center}
+% \caption{Evolución de los egresos por pensiones del IVM}
+% \label{fig:iess_egresosxpagpensiones_ivm}
+% \includegraphics[scale=1.0]{graficos/iess_egresosxpagpensiones_ivm.png}
+% \caption*{\scriptsize Fuente: Balance de Resultados Consolidado por Fondos Administrados de los Fondos Especializados - DNGF \\
+%   Elaborado: DAIE.}
+% \end{center}
+% \end{figure}
+% 
+% Los egresos por pensiones incluyen el pago de pensiones de vejez, discapacidad, invalidez, montepío, magisterio adicional a cargo del IESS y sus respectivas decimotercera y decimocuarta pensión. Además de estas pensiones, dentro de los balances en esta cuenta se incluye el pago de pensiones a Héroes y Heroínas y el incremento de la Ley 2004-39. Los gastos pensionales siguen una tendencia positiva entre el 2010 al 2020 con un crecimiento anual promedio del 14,26\%.
+% 
+% Entre el 2010 y el 2013 se observa un crecimiento porcentual acelerado de la masa pensional causado por el incremento de las pensiones otorgadas y de las pensiones mínimas y máximas que están atadas al Salario Básico Unificado, misma que tuvieron tasas de variación positivas del 14,62\% al 25,25\% siendo esta última la más significativa del periodo analizado.
+% 
+% A partir del 2016 los incrementos de pensiones se ataron a la inflación promedio anual del año anterior, lo que ocasionó que el crecimiento de la masa pensional se desacelere pasando del 14,06\% (2016) a 7,65\% (2020). Es importante mencionar que las pensiones de vejez y retiro representan el 96\% del total de egresos por pago de pensionales, estos beneficios comprenden doce pensiones al año añadidas los decimotercera y decimocuarta pensión.
+% 
+% %----------------------------------------------------------------------------------
+% \subsection{Otros gastos prestacionales}
+% \label{chp_infofinan:iess_otrgastosprest_ivm}
+% 
+% El comportamiento de los egresos por otros gastos prestacionales entregados de este fondo se presenta en la tabla \ref{tab:iess_otrgastosprest_ivm}.
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución de otros beneficios de IVM}
+%   \label{tab:iess_otrgastosprest_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{c*{4}{r}}
+%   \toprule
+%   Año & 13ra Pensión & 14ta Pensión & Auxilios funerales &  Total \\
+%   \midrule
+%   \input{tablas/iess_otrgastosprest_ivm.tex}
+%   \bottomrule
+%   \end{tabular}
+%   }
+% \caption*{\scriptsize Fuente: Balance de Resultados Consolidados por Fondos Administrados de los Fondos Especializados-DNGF. \\
+% Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% Para los años 2017, 2018, 2019 y 2020 los conceptos de decimotercera y decimocuarta pensiones aparecen sumados al rubro pensiones de vejez y retiro como un total dentro de gastos prestacionales por pensiones correspondiente al balance de resultados.
+% 
+% Se observa que el total de “otros gastos prestacionales” mantuvo un crecimiento constante desde el 2010 hasta el 2016 con una tasa de variación positiva de 153,83\%; sin embargo a partir del 2017 decrece significativamente en -95,24\% respecto al año anterior, es decir disminuyo en USD. 384.314.047,00. Cabe mencionar que en el año 2020 el gasto por auxilios funerales y ayuda mortuoria creció en 34,04\% (USD. 7.549.899,86) respecto al 2019, aquello debido en parte a la crisis sanitaria vivida en el país.
+% 
+% 
+% % ----------------------------------------------------------------------------
+% \subsection{Gastos administrativos}
+% \label{chp_infofinan:iess_gastosadminis_ivm}
+% 
+% Los gastos administrativos se presentan a continuación en la tabla \ref{tab:iess_gastosadminis_ivm} correspondiente al periodo 2010 – 2020.
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución del gasto contribución administradora del IVM}
+%   \label{tab:iess_gastosadminis_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{c*{3}{r}}
+%   \toprule
+%   Año & Gasto Contribución & Crecimiento de gasto & Crecimiento Porcentual de \\
+%       & Administradora     & Contribución         & Gasto Contribución        \\
+%       &                    & Administradora       & Administradora            \\
+%   \midrule
+%   \input{tablas/iess_gastcontradmin_ivm.tex}
+%   \bottomrule
+%   \end{tabular}
+%   }
+% \caption*{\scriptsize Fuente: Balance de Resultados Consolidado por Fondos Administrados de los Fondos Especializados - DNGF. \\
+% Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% El gasto “contribución administradora” en el año 2020 con respecto al año 2010 mantuvo una tasa de crecimiento del 69,07\%; sin embargo con el impacto de la aplicación de la Resolución No. C.D. 501 de 13 de noviembre de 2015, la misma sufre el mayor decrecimiento en el año 2016 del -43,80\%.
+% 
+% A partir del año 2017 hasta el 2019 se aprecia un crecimiento promedio anual del gasto de 25,17\%, evidenciando el mayor gasto en el 2019 por un valor de USD.106.195.703,40; en el 2020 se evidencia una tasa de variación negativa del 8,03\%, pasando de USD. 106.195.703,40 (2019) a USD. 97.672.311,66 (2020).
+% 
+% 
+% %-------------------------------------------------------------------------------------
+% \section{Ingresos por aportes versus gastos pensionales}
+% \label{chp_infofinan:iess_ingrvsgast_ivm}
+% 
+% Se presenta en la tabla \ref{tab:iess_ingrvsgast_ivm} la evolución de los ingresos por aportes (personal y patronal) de los afiliados activos versus los gastos pensionales de este fondo por cada año.
+% 
+% El resultado corresponde a la diferencia entre los aportes de los afiliados y los gastos pensionales.
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución de ingresos por aportes vs los gastos pensionales del Fondo del IVM}
+%   \label{tab:iess_ingrvsgast_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{c*{5}{r}}
+%   \toprule
+%   Año & Aportes       & Total Gastos & Resultado & Utilización & Valor para \\
+%       & de Afiliados  & Pensionales  &           & Anual (\%)     & Acumulación (\%)\\
+%   \midrule
+%   \input{tablas/iess_ingresos_v_gastos_ivm.tex}
+%   \bottomrule
+%   \end{tabular}
+%   }
+% \caption*{\scriptsize Fuente: Balance de Resultados Consolidado por Fondos Administrados de los Fondos Especializados - DNGF. \\
+% Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% Al realizar una comparación entre las cuentas de ingresos por aportes sobre los gastos pensionales se puede observar que desde el año 2014 hasta el año 2020 el gasto es superior a los ingresos por aportes (déficit), por lo que fue necesario recurrir de ingresos adicionales para cubrir dicha brecha que se obtuvo a través de las desinversiones realizadas.
+% 
+% Como se observa en la tabla \ref{tab:iess_ingrvsgast_ivm} el año 2020 registró el mayor déficit por un valor de USD. 2.083 millones.
+% 
+% 
+% %---------------------------------------------------------------------------------------
+% \section{Comparación de ingresos por aportes y gastos de administración del Fondo de IVM}
+% \label{chp_infofinan:iess_ingrvscontrib_ivm}
+% 
+% Se presenta en la tabla \ref{tab:iess_ingrvscontrib_ivm} la evolución de los ingresos por aportes versus la contribución para gastos de administración de este fondo a diciembre de cada año.
+% 
+% El resultado corresponde a la diferencia de aportes personales y patronales menos la contribución para Gastos de Administración
+% 
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución de ingresos por aportes vs los gastos pensionales del Fondo del IVM}
+%   \label{tab:iess_ingrvscontrib_ivm}
+%   {\fontsize{8}{10}\selectfont
+%   \begin{tabular}{c*{5}{r}}
+%   \toprule
+%   Año & Ingresos      & Contribución para & Resultado & Utilización & Valor para \\
+%       & Aportes de    &  Gastos de        &           & Anual (\%)  & Acumulación \\
+%       & Afiliados     & Administración    &           &             &   (\%)      \\
+%   \midrule
+%   \input{tablas/iess_ingrvscontri_ivm.tex}
+%   \bottomrule
+%   \end{tabular}
+%   }
+% \caption*{\scriptsize Fuente: Balance de Resultados Consolidado por Fondos Administrados de los Fondos Especializados - DNGF. \\
+% Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% 
+% Al realizar una comparación entre los gastos de contribución a la administradora con los ingresos por aportes, se determina que desde el año 2011 al 2020 se cumple con lo establecido en el literal c del artículo 27 de la Ley de Seguridad Social que establece como fondos propios del IESS: “El cuatro por ciento (4\%) de las recaudaciones de los aportes de los afiliados, los empleadores y/o jubilados a los seguros de pensiones”.
+% 
+% Sin embargo se observa que en los años 2010 y 2014 la tasa de utilización anual es del 5\% y 3\% respectivamente, incumpliendo con lo establecido en artículo 27 de la Ley de Seguridad Social.
+
 %---------------------------------------------------------------------------------------------------
-\chapter{Calificación del derecho a la jubilación Especial}
-%{Calificación del derecho a la jubilación Especial de los Trabajadores de la Industria del Cemento}
-\label{chp_demog}
+\section{Descripción del portafolio de inversiones}
+\label{chp_infofinan:rentablidad}
 
-Mediante el memorando Nro. IESS-DSP-2021-0221-M de fecha 04 de marzo de 2021, Econ. José Antonio Martínez Dobronsky, Director del Sistema de Pensiones del Instituto de Seguridad Social Ecuatoriano, confirma el listado de extrabajadores que cumplen con los requisitos de la jubilación especial, con las siguientes palabras:
+El artículo 372 de la Constitución de la República del Ecuador establece: ``Los fondos y reservas del seguro universal obligatorio
+serán propios y distintos de los del fisco, y servirán para cumplir de forma adecuada los fines de
+su creación y sus funciones. Ninguna institución del Estado podrá intervenir o disponer de sus
+fondos y reservas, ni menoscabar su patrimonio. Los fondos provisionales públicos y sus
+inversiones se canalizarán a través de una institución financiera de propiedad del Instituto
+Ecuatoriano de Seguridad Social; su gestión se sujetará a los principios de seguridad, solvencia,
+eficiencia, rentabilidad y al control del órgano competente''.
 
-“En base a los antecedentes y normativa se puede indicar que, una vez realizadas las verificaciones a la información proporcionada por la Asociación de Jubilados de la Cemento Nacional, hoy Holcim Ecuador, así como de los datos proporcionados por la Dirección Nacional de Afiliación y Cobertura en el ámbito de sus competencias, me permito señalar que: 
-\begin{itemize}
-\item Del total de 321 registros proporcionados en Memorando  Nro.IESS-DAIE-2020-0868-M, se evidenció que la cédula número 0900486572,  se registra como duplicado en la numeración 153 y 183.  Así también,  la  cédula 0900281576 no mantiene información en registros de afiliación, ni en la Base de Registro Civil.  
-\item Razón por la cual,  el  total de registros válidos son de 319 personas como posibles beneficiarias. Considerando la información consolidada de sueldos y aportes dentro de la industria del cemento de los posibles beneficiarios proporcionada por la Dirección Nacional de Afiliación y Cobertura,  se  verificó el cumplimiento de las 300 imposiciones o más y se identificaron a las personas fallecidas previa al período de pago 2000 - 2010. 
-\item Adicionalmente,  en  apego a la Ley para la Trasformación Económica del Ecuador, publicada en el Registro Oficial Suplemento 34 de 13 de marzo del 2000, mediante el cual se emitió la Ley para la Transformación Económica del Ecuador, se realizó la categorización del tipo de sueldos (sucres o dólares) del último aporte en la industria del cemento”.
-\end{itemize}
+El artículo 4 del Capítulo V ``Norma para regular las operaciones del Banco del Instituto Ecuatoriano
+de Seguridad Social '' del Título XXVI del Libro I ``Normas Generales para las Instituciones del 
+Sistema Financiero''\footnote{La normativa citada se encuentra derogada, pero se
+encontraba vigente en la mayoría del período de valuación.} de la normativa de la Superintendencia
+de Bancos, establece que las inversiones del Fondo del Seguro IVM se invertirán a largo plazo; es
+decir, hasta plazos mayores a cinco (5) años, en inversiones: privativas (préstamos hipotecarios,
+prendarios y quirografarios, e inversión en inmuebles), no privativas en renta fija (bonos, bonos
+locales, CETES \footnote{Certificados de tesorería}, certificados de depósito, papel comercial,
+obligaciones, titularizaciones y pólizas de acumulación) y no privativas en renta variable
+(fideicomisos mercantiles, acciones y cuotas de participación en fondos de inversión).
 
-Por lo tanto, solamente 151 extrabajadores cumplen con más de 300 imposiciones de la industria del cemento y debieron percibir esta pensión en el período 2000 a 2010, de los cuales 42 tienen fecha de cese antes de la publicación de la Ley de la Jubilación Especial de los Trabajadores de la Industria del Cemento; en tal caso el juez pertinente determinará , si estos extrabajadores tienen derecho a esta jubilación especial.
+Para medir la rentabilidad de las inversiones, se utilizarán dos indicadores: el rendimiento
+promedio ponderado y el rendimiento neto. El rendimiento promedio ponderado para cada instrumento
+financiero, con pesos iguales a los saldos en valor nominal, se calcula según el artículo 5.4.1.3
+del Capítulo III ``Manual operativo para valoración a precios de mercado de valores de contenido crediticio y de participación y procedimiento'' del Título III ``De las operaciones del Instituto
+Ecuatoriano de Seguridad Social, del Instituto de Seguridad Social de las Fuerzas Armadas, del
+Instituto de Seguridad Social de la Policía Nacional, del Servicio de Cesantía de la Policía
+Nacional'' del  Libro II ``Normas de control para las entidades del sistema de seguridad
+social''\footnote{La normativa citada se encuentra derogada, pero se encontraba vigente en la
+mayoría del período de valuación.}, en el cual manifiesta que la fórmula para calcular el
+rendimiento efectivo promedio ponderado es:
+\begin{equation}
+\overline{TIR}=\frac{\sum^{K}_{1} TIR_{i}\cdot VP_{i}}{\sum^{k}_{1}VP_{i}},
+\end{equation}
 
-De esta manera, se excluyeron de este beneficio a 168 extrabajadores, de los cuales 32 fallecieron antes del año 2000 y 136 no cumplen con al menos 300 imposiciones en la industria del cemento, según lo señala la Dirección del Sistema de Pensiones del IESS. En la tabla \ref{tab:iess_demandantes}, se presenta la lista de los 319 posibles beneficiarios y se determina si cumple el derecho a la jubilación especial.
+donde:\vskip 0.5cm
+$\overline{TIR}$: Rendimiento  promedio ponderado porcentual, expresado con hasta cuatro (4) decimales;
+\vskip 0.3cm 
+$TIR_{i}$: Rendimiento efectivo de la operación de contado $i$;
+\vskip 0.3cm 
+$VP_{i}$: Valor nominal residual o valor parcial;
+\vskip 0.3cm 
+$k$: Número de operaciones a tener en cuenta.
 
-\begin{landscape}
-{\fontsize{8}{11}\selectfont
-\begin{longtable}[H]{clcrrrcl}
-\caption{Calificación del derecho a la jubilación Especial de los Trabajadores de la Industria del Cemento}\\
-\label{tab:iess_demandantes} \\
+El rendimiento neto de cada fondo se calcula según la metodología expuesta en el informe ``Cálculo
+de rendimientos financieros de los Fondos Previsionales administrados por el Banco del Instituto
+Ecuatoriano de Seguridad Social''. Los rendimientos anualizados netos analizados como indicadores de
+rentabilidad, se estiman a través de la siguiente fórmula:
+\begin{equation}
+R_{i}=\frac{\left(I_{i}-Gop_{i}-GAdm_{i}\right)\cdot \left(12/j\right)}{\overline{FA_{i}}},
+\end{equation}
+
+donde\vskip 0.4cm 
+$R_{i}$: Rendimiento neto del fondo $i$ para $i=1,2,3,\ldots,9$;\vskip 0.3cm 
+$I_{i}$: Ingreso acumulado del fondo $i$ para $i=1,2,3,\ldots,9$;\vskip 0.3cm 
+$Gop_{i}$: Gasto operativo acumulado del fondo $i$ para $i=1,2,3,\ldots,9$; \vskip 0.3cm 
+$GAdm_{i}$: Gasto administrativo acumulado del fondo $i$ para $i=1,2,3,\ldots,9$; \vskip 0.3cm 
+$\overline{FA_{i}}$: Fondo administrativo promedio del fondo $i$ para $i=1,2,3,\ldots,9$.
+
+$\overline{FA_{i}}$ hace referencia al promedio del saldo del fondo registrado 
+el último día de cada mes, desde el 31 de diciembre del año 
+anterior hasta el último día del mes considerado. Específicamente, la fórmula  de cálculo es la siguiente:
+\begin{equation}
+\overline{FA_{i}}=\frac{FA_{i,dic}+FA_{i,ene}+FA_{i,feb}+FA_{i,mar}+\cdots+FA_{i,actual}}{j+1}.
+\end{equation}
+
+A partir de la información recopilada de los siguientes documentos: memorando Nro.
+IESS-DNGF-2018-0859-M de 2 de octubre de 2018, oficio Nro. BIESS-OF-GGEN-0315-2019 de fecha 28 de
+marzo de 2019 y el informe técnico BIESS-IF-GADF-002-2018 de fecha 23 de febrero de 2018, se
+presenta la siguiente información respecto a los fondos y reservas del Seguro IVM.
+
+A continuación, se presenta la evolución histórica del valor nominal y su respectivo rendimiento del
+portafolio de inversiones del Seguro de IVM, durante el período 2011 a 2020 en la tabla
+\ref{tab:iess_total_inv} y la figura \ref{fig:iess_inv_tot}.
+
+\begin{table}[H]
+  \begin{center}
+  \caption{Evolución de los Fondos del Seguro IVM administrados por el BIESS}
+  \label{tab:iess_total_inv}
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{rrrrcrrc}
+    \toprule
+ \multicolumn{1}{c}{Año} & \multicolumn{1}{c}{Inversiones} & \multicolumn{1}{c}{Caja} & \multicolumn{1}{c}{Fondo total} & \multicolumn{1}{c}{Rendimiento Promedio}& \multicolumn{1}{c}{Rendimiento} & \multicolumn{1}{c}{Rendimiento Neto} & \multicolumn{1}{c}{Plazo Promedio}  \\ 
+     &  \multicolumn{1}{c}{(USD)}           &\multicolumn{1}{c}{(USD)} & \multicolumn{1}{c}{administrado (USD)}&  \multicolumn{1}{c}{Ponderado (\%)}    & \multicolumn{1}{c}{Neto (\%)}   & \multicolumn{1}{c}{Real (\%)}  &  \multicolumn{1}{c}{Ponderado (días)}  \\ 
+    \midrule
+    \input{tablas/iess_total_inv.tex}
+    %\bottomrule
+  \end{tabular}
+    }
+\caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Dirección de Tesorería - BIESS. \\
+Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\caption{Evolución histórica del saldo en valor nominal de las inversiones del Fondo del Seguro IVM
+y su rendimiento neto}
+\label{fig:iess_inv_tot}
+\includegraphics[scale=1]{graficos/iess_inv_tot.png}
+\caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Dirección de Tesorería - BIESS. \\
+Elaborado: DAIE}
+\end{figure}
+
+Se observa como el portafolio total de inversiones del Seguro IVM creció de USD 2.243.628.632 en el
+año 2011 a USD 9.030.558.911 en el año 2015, un crecimiento del 302,5\%, y, decrece a
+diciembre de 2020 a USD 6.051.052.805,39. De igual manera, su tasa de rendimiento promedio ponderada
+creció de 7,24\% en el año 2011 a 8,21\% en el año 2016 para después, estabilizarse en 7,84\% a
+diciembre de 2020 
+
+En cambio, el rendimiento neto más alto se registró en el año 2012 (10,01\%) y las más bajas fueron
+en el 2011 y 2020 (1,88\% y 4,87\%, respectivamente) y su promedio es 6,94\%. La reducción de los
+rendimientos netos del portafolio de inversiones del BIESS, se debió al cumplimiento de la
+programación de desinversión del Fondo del Seguro IVM solicitada por el IESS, en los años 2016 y
+2017, anticipando los ingresos en esos años y reduciendo los ingresos para los años subsiguientes.
+
+Se presenta un breve resumen de la situación actual de las inversiones pertenecientes al Seguro IVM,
+a través del BIESS, en Bonos del Estado, titularizaciones, obligaciones, préstamos, certificados de
+tesorería, cupones de interés y papel comercial, mostrando su saldo remanente de la inversión en
+valor nominal, su rendimiento promedio ponderado y su rendimiento promedio ponderado real a 31 de diciembre de 2020.
+\begin{table}[H]
+  \begin{center}
+  \caption{Portafolio de inversiones del Fondo del Seguro IVM administrados del BIESS a 31 de diciembre de 2020}
+  \label{tab:iess_INV_Corte}
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{lrccr}
+    \toprule
+ \multicolumn{1}{c}{Instrumento:} & \multicolumn{1}{c}{Saldo Valor}   & \multicolumn{1}{c}{Rendimiento Promedio}  & \multicolumn{1}{c}{Rendimiento Promedio}  & \multicolumn{1}{c}{Plazo Promedio}  \\
+             &  \multicolumn{1}{c}{Nominal (USD)}& \multicolumn{1}{c}{Ponderado (\%)}        & \multicolumn{1}{c}{Ponderado Real (\%)}&\multicolumn{1}{c}{Remanente (días)} \\
+   \midrule
+    \input{tablas/iess_inv_corte.tex}
+    %\bottomrule
+  \end{tabular}
+    }
+\caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Dirección de Tesorería - BIESS.\\
+Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+% --------------------------------------------------------------------------------------------------
+\subsection{Rendimiento neto de las inversiones del fondo}
+
+La Dirección de Tesorería del BIESS envió a través del Oficio Nro. BIESS-OF-GGEN-0591-2019 de fecha 17 de junio de 2019 los resultados de la metodología: ``Cálculo de rendimientos financieros de los Fondos Previsionales administrados por el Banco del Instituto Ecuatoriano de Seguridad Social''. Para el cálculo de los rendimientos netos, se utilizaron: los ingresos, gastos operativos y gastos administrativos, el fondo administrado promedio (desde diciembre del año anterior). Además, en la tabla \ref{tab:iess_rend_inv}, se presentan la tasa de rendimiento bruta antes de gastos y la tasa de rendimiento neta, la cual es el rendimiento después de gastos. Los ingresos se detallan más tarde en la tabla \ref{tab:iess_ingre_inv} y los egresos en la tabla \ref{tab:iess_gastos_inv}.
+
+En promedio, la diferencia entre rendimientos brutos y netos de este fondo es 1,72\%; es decir, los
+gastos (operativos y administrativos) producen una reducción del 1,72\% del rendimiento bruto y,
+además, presentan una baja volatilidad (desviación estándar igual a 0,53\%). La reducción del
+rendimiento neto en el año 2020 (4,87\%) se debe principalmente a la venta de cupones de interés de
+Bonos del Estado Ecuatoriano. Esta venta anticipada produjo ingresos anticipados por USD 267,17 millones en 2016, USD 194,24 millones en el año 2017 y USD 6,15 millones en el año 2020; en cambio, estas
+desinversiones produjeron que el Fondo del Seguro IVM no percibiera ingresos por USD 9,20 millones
+en el año 2016, USD 203,67 millones en el año 2017 y USD 188,52 millones en el año 2020
+En conclusión, la afectación al Fondo del Seguro del IVM fue: USD 9,43 millones en el año 2017, USD
+182,37 en el año 2020, mientras que el año 2016 se presentó utilidades por esta venta anticipada por
+USD 257,97 millones (Según la Dirección de Tesorería del BIESS en los insumos enviados en Oficio Nro.
+BIESS-OF-GGEN-0591-2019). 
+
+Además, la Dirección de Tesorería del BIESS estima el escenario: si no se hubiese realizado la venta
+anticipada de cupones de interés de los Bonos del Estado en los años: 2016, 2017 y 2020, el
+rendimiento neto en el año 2020 sería 7,48\% (y no 4,87\%), debido que los ingresos habrían
+aumentado en USD 182,37 millones en ese año.
+\begin{table}[H]
+  \begin{center}
+  \caption{Evolución de los ingresos, gastos operativos, gastos administrativos, rendimiento bruto y rendimiento neto del portafolio de inversiones del Fondo del Seguro IVM}
+  \label{tab:iess_rend_inv}
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{lrrrrrr}
+    \toprule
+   \multicolumn{1}{c}{Corte a:} & \multicolumn{1}{c}{Ingresos} & \multicolumn{1}{c}{Gastos}& \multicolumn{1}{c}{Gastos} & \multicolumn{1}{c}{Fondo Administrado} & \multicolumn{1}{c}{Rendimiento}  & \multicolumn{1}{c}{Rendimiento} \\
+            & \multicolumn{1}{c}{(USD)} &\multicolumn{1}{c}{Operativos (USD)} & \multicolumn{1}{c}{Administrativos (USD)} &\multicolumn{1}{c}{Promedio (USD)}     & \multicolumn{1}{c}{Bruto (\%)}   & \multicolumn{1}{c}{Neto (\%)} \\
+    \midrule
+    \input{tablas/iess_rend_inv.tex}
+    %\bottomrule
+  \end{tabular}
+    }
+\caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Dirección de Tesorería - BIESS. \\
+Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+Los ingresos por inversiones del Fondo del Seguro presentados en la tabla \ref{tab:iess_ingre_inv}
+fueron tomados de los estados de pérdidas y ganancias a corte diciembre de los respectivos años. Los
+ingresos financieros generados por las inversiones de este seguro tuvieron una tendencia a crecer de
+USD 91.603.512,41 a USD 942.806.022,24 entre los años 2011 y 2016, respectivamente, después los
+ingresos decrecieron a USD 443.729.443,16 debido a la venta de cupones antes mencionada. Las
+inversiones en renta fija en el sector público (Bonos del Estado Ecuatoriano) generan mayores ingresos para el
+fondo entre los años 2012 a 2016, siendo su ingreso máximo por este concepto en el año 2016 (USD
+529.462.441,60) y su menor en el año 2020 (USD 30.766.353,79). Desde el año 2017, los ingresos por
+préstamos hipotecarios han generado los mayores ingresos, logrando generar USD 365.358.000,81 en el
+2018 a diferencia de los préstamos quirografarios que solo generaron USD 21.774.495,98 en el mismo
+año.
+\begin{table}[H]
+  \begin{center}
+  \caption{Evolución de los ingresos financieros generados por las inversiones del Fondo del Seguro IVM}
+  \label{tab:iess_ingre_inv}
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{{l}r*{7}{r}}
+    \toprule
+  \multicolumn{1}{c}{Ingresos:} & \multicolumn{1}{c}{2014} & \multicolumn{1}{c}{2015} &\multicolumn{1}{c}{2016} &\multicolumn{1}{c}{2017} &\multicolumn{1}{c}{2018} & \multicolumn{1}{c}{2019}  &  \multicolumn{1}{c}{2020}\\
+    \midrule
+    \input{tablas/iess_ingre_inv.tex}
+    %\bottomrule
+  \end{tabular}
+    }
+\caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Dirección de Tesorería - BIESS. \\
+Elaborado: DAIE}
+  \end{center}
+\end{table}
+
+Los gastos operativos de las inversiones del portafolio de inversiones del Fondo del Seguro IVM se
+detallan en la tabla \ref{tab:iess_gastos_inv} y se puede apreciar que mantienen una tendencia a
+crecer, puesto a que crecieron de USD 21.244.220,82 a USD 134.594.124,99 entre el año 2012 a 2018,
+respectivamente, lo que significa un crecimiento de 553,36\% en seis (6) años. Los mayores gastos
+operativos corresponden a las provisiones para la valuación de préstamos \footnote{El cálculo de
+provisiones se lo realizó según la Resolución No. JB- 2012-2300 (derogada el 29 de diciembre de 2017),
+remplazada por la Circular SB-IG-2017-0241-C y de acuerdo al Capítulo II ´´ Calificación de
+activos de riesgo y constitución de provisiones por parte de las instituciones controladas por la
+Superintendencia de Bancos ´´ del Título IX del Libro I.}, las cuales crecieron de USD
+1.150.988,91 en el 2017 a USD 79.169.458,04 (equivale al 58,82\% de los gastos de las inversiones
+del fondo en 2020) en el 2020, lo que representa un crecimiento de 6.778,39\% en 4 años, esto debido
+al crecimiento del tamaño y de la morosidad de la cartera de créditos hipotecarios. En segundo
+lugar, se encuentran los gastos por reverso de intereses, los cuales en el año 2012 se registraron
+USD 10.996.666,13 y crecieron hasta el año 2015 (USD 85.772.508,65) y después se redujeron a USD
+43.106.025,38 en el año 2020, lo que representa el 32,03\% de los gastos operaciones de las
+inversiones del fondo en el año 2020.
+
+\begin{table}[H]
+  \begin{center}
+  \caption{Evolución de los gastos operativos producidos por las inversiones del Fondo del Seguro IVM}
+  \label{tab:iess_gastos_inv}
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{{l}r*{7}{r}}
+    \toprule
+    \multicolumn{1}{c}{Gastos:} &   \multicolumn{1}{c}{2014} &   \multicolumn{1}{c}{2015} &  \multicolumn{1}{c}{2016} &  \multicolumn{1}{c}{2017} &  \multicolumn{1}{c}{2018} &   \multicolumn{1}{c}{2019}&  \multicolumn{1}{c}{2020}\\
+    \midrule
+    \input{tablas/iess_gastos_inv.tex}
+    %\bottomrule
+  \end{tabular}
+    }
+  \caption*{\scriptsize Fuente: Dirección de Tesorería - BIESS y Balances Financieros del BIESS. \\
+  Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+% --------------------------------------------------------------------------------------------------
+\subsection{Inversiones privativas (préstamos)}
+De acuerdo al numeral 1 del artículo 9 del Capítulo V ``Normas para regular las operaciones del
+Banco del Instituto Ecuatoriano de Seguridad Social'' del Libro I ``Normas generales para las
+instituciones del sistema financiero''\footnote{Esta normativa se encuentra derogada, pero estaba
+vigente en la mayoría del período de valuación de este estudio.}, las inversiones privativas
+abarcan:  préstamos hipotecarios; préstamos quirografarios; préstamos prendarios a través de los
+servicios de los montes de piedad; las colocaciones financieras de las cuentas de menores
+beneficiarios del Instituto Ecuatoriano de Seguridad Social; operaciones de descuento de cartera
+hipotecaria; y adquisición, conservación y enajenación de bienes inmuebles, de acuerdo a las
+resoluciones que emita el directorio del Banco del Instituto Ecuatoriano de Seguridad Social.
+
+En la tabla \ref{tab:iess_creditos_inv} y figura \ref{fig:iess_creditos_inv}, se muestra la
+evolución histórica de las inversiones en préstamos quirografarios e hipotecarios en valor nominal
+con su respectivo rendimiento y plazo promedio ponderado durante el período 2012 a 2018.
+\begin{figure}[H]
+\centering
+\caption{Evolución histórica del saldo en valor nominal de las inversiones en préstamos del Fondo 
+del Seguro IVM y su rendimiento promedio ponderado}
+\label{fig:iess_creditos_inv}
+\includegraphics[scale=1]{graficos/iess_creditos_inv.png}
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS. \\
+  Elaborado: DAIE.}
+\end{figure}
+
+\begin{table}[H]
+  \begin{center}
+  \caption{Evolución de las inversiones del Fondo del Seguro IVM en préstamos}
+  \label{tab:iess_creditos_inv}
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{crrrccc}
+    \toprule
+     \multicolumn{1}{c}{Año} &  \multicolumn{1}{c}{Préstamos}&  \multicolumn{1}{c}{Préstamos}  &  \multicolumn{1}{c}{Total}&  \multicolumn{1}{c}{Rendimiento} &  \multicolumn{1}{c}{Rendimiento Promedio}&  \multicolumn{1}{c}{Plazo} \\
+      &   \multicolumn{1}{c}{Quirografarios (USD)}&  \multicolumn{1}{c}{Hipotecarios (USD)}&   \multicolumn{1}{c}{(USD)}  &   \multicolumn{1}{c}{Promedio Ponderado (\%)} &   \multicolumn{1}{c}{Ponderado Real (\%)} &    \multicolumn{1}{c}{Promedio Ponderado (días)}\\
+    \midrule
+    \input{tablas/iess_creditos_inv.tex}
+    %\bottomrule
+  \end{tabular}
+    }
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Balances Financieros del BIESS. \\
+  Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+El portafolio de inversiones del Seguro IVM no registra inversiones en préstamos prendarios. La
+mayoría de sus inversiones en préstamos son hipotecarios (97,4\% en 2018). La evolución del saldo
+remanente invertido en préstamos tuvo una tendencia creciente entre el año 2011 a 2015,
+años en los que su cartera creció de USD 1.505.857.263,78 a USD 4.363.131.162,21, respectivamente.
+Más tarde, en los últimos tres años su cartera decreció a USD 4.010.816.787,88 en el 2018. 
+
+En cambio, su tasa de rendimiento ponderada registró su máximo en 2016 (9,25\%) y su mínimo en 2014
+(8,48\%) y su promedio es 8,7\%. Cabe mencionar que este rendimiento es un promedio ponderado por
+tanto no considera los gastos por provisiones que estipulan la autoridad de control para este tipo
+de inversión como se pueden apreciar en la tabla \ref{tab:iess_gastos_inv}; por consiguiente, es
+necesario establecer una metodología para calcular los rendimientos netos de las inversiones en
+préstamos.
+
+% --------------------------------------------------------------------------------------------------
+\subsection{Inversiones no privativas con renta fija en el sector público}
+
+De acuerdo al numeral 1 del artículo 9 del Capítulo V ``Normas para regular las operaciones del
+Banco del Instituto Ecuatoriano de Seguridad Social'' del Libro I ``Normas Generales para las instituciones del Sistema Financiero'', las inversiones no privativas abarcan:  títulos de renta
+fija; títulos de renta variable; valores que se emitan como consecuencia de procesos de
+titularización; inversiones en el exterior dentro de los términos de la Ley de Seguridad Social; y 
+fideicomisos mercantiles, cuyo beneficiario sea el Banco del Instituto Ecuatoriano de Seguridad
+Social. (Reformado con Resolución No. JB-2014-3029 de 6 de agosto del 2014).
+
+% --------------------------------------------------------------------------------------------------
+\subsubsection{Inversiones en Bonos del Estado Ecuatoriano}
+
+En la siguiente tabla y figura se muestra la evolución histórica de las inversiones del Seguro IVM en bonos del Estado, en valor nominal (barras) a diciembre de cada año y sus tasas de rendimiento
+(líneas) durante el período 2011 a 2020 Como se puede observar el rendimiento crece en el tiempo,
+de 5,87\% a 7,56\% entre los años 2011 y 2020, respectivamente. En cambio, el saldo en valor nominal
+creció de USD 1.023.404.975,13 en diciembre de 2011 a USD 4.283.912.915,79  en diciembre de 2015,
+crecimiento del 318,6\% entre 2011 a 2015, año en el cual obtuvo su máximo; más tarde, su valor
+nominal disminuyó a 1.776.121.661,83 a diciembre de 2020, con un decrecimiento de 32,83\% entre 2015
+y 2020
+
+
+\begin{figure}[H]
+\centering
+\caption{Evolución histórica del saldo en valor nominal de las inversiones en Bonos del Estado del
+Fondo del Seguro IVM y su rendimiento promedio ponderado}
+\label{fig:iess_bonos_hist_inv}
+\includegraphics[scale=1]{graficos/iess_bonos_hist_inv.png}
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS. \\
+  Elaborado: DAIE.}
+\end{figure}
+\begin{table}[H]
+  \begin{center}
+  \caption{Evolución de las inversiones del Fondo del Seguro IVM en Bonos del Estado Ecuatoriano}
+  \label{tab:iess_bonos_hist_inv}
+  {\fontsize{10}{12}\selectfont
+  \begin{tabular}{crccr}
+    \toprule
+   \multicolumn{1}{c}{Año} &   \multicolumn{1}{c}{Saldo}         &   \multicolumn{1}{c}{Rendimiento Promedio} &   \multicolumn{1}{c}{Rendimiento Promedio} &   \multicolumn{1}{c}{Plazo} \\
+     &   \multicolumn{1}{c}{Valor Nominal (USD)} &   \multicolumn{1}{c}{Ponderado (\%)}        &   \multicolumn{1}{c}{Ponderado Real (\%)} &   \multicolumn{1}{c}{(días)}   \\
+    \midrule
+    \input{tablas/iess_bonos_hist_inv.tex}
+    %\bottomrule
+  \end{tabular}
+    }
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Balances Financieros del BIESS. \\
+  Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+
+{\fontsize{10}{11}\selectfont
+\begin{longtable}[H]{lrrccr}
+\caption{Detalle de las inversiones del Fondo del Seguro IVM en Bonos del Estado Ecuatoriano a 31
+de diciembre de 2020} \\
+\label{tab:iess_bonos_detalle_inv} \\
 \toprule
-\multicolumn{1}{c}{Cédula}
-& \multicolumn{1}{c}{Apellidos y}
-&\multicolumn{1}{c}{Fecha}
-&\multicolumn{1}{c}{Aportes}
-&\multicolumn{1}{c}{Imposiciones}
-&\multicolumn{1}{c}{Último}
-&\multicolumn{1}{c}{Cumple}
-&\multicolumn{1}{c}{Observación} \\
-\multicolumn{1}{c}{Ciudadanía}
-& \multicolumn{1}{c}{Nombres}
-& \multicolumn{1}{c}{Cese}
-&\multicolumn{1}{c}{Total}
-&\multicolumn{1}{c}{Total Cemento}
-&\multicolumn{1}{c}{sueldo (\$)}
-&\multicolumn{1}{c}{requisitos Sentencia}
-&\\
+   \multicolumn{1}{l}{Referencia del} &   \multicolumn{1}{c}{Valor Nominal} &   \multicolumn{1}{c}{Saldo Valor}  &   \multicolumn{1}{c}{Tasa Cupón} &   \multicolumn{1}{c}{Plazo Remanente} &  \multicolumn{1}{c}{Amortización}\\
+   \multicolumn{1}{c}{Título}  &  \multicolumn{1}{c}{de Compra (USD)}&  \multicolumn{1}{c}{Nominal (USD)}&        \multicolumn{1}{c}{(\%)}  &   \multicolumn{1}{c}{(días)}          &              \\
 \midrule
 \endfirsthead
 
 \toprule
-\multicolumn{1}{c}{Cédula}
-& \multicolumn{1}{c}{Apellidos y}
-&\multicolumn{1}{c}{Fecha}
-&\multicolumn{1}{c}{Aportes}
-&\multicolumn{1}{c}{Imposiciones}
-&\multicolumn{1}{c}{Último}
-&\multicolumn{1}{c}{Cumple}
-&\multicolumn{1}{c}{Observación} \\
-\multicolumn{1}{c}{Ciudadanía}
-& \multicolumn{1}{c}{Nombres}
-& \multicolumn{1}{c}{Cese}
-&\multicolumn{1}{c}{Total}
-&\multicolumn{1}{c}{Total Cemento}
-&\multicolumn{1}{c}{sueldo (\$)}
-&\multicolumn{1}{c}{requisitos Sentencia}
-&\\
+   \multicolumn{1}{l}{Referencia del} &   \multicolumn{1}{c}{Valor Nominal} &   \multicolumn{1}{c}{Saldo Valor}  &   \multicolumn{1}{c}{Tasa Cupón} &   \multicolumn{1}{c}{Plazo Remanente} &  \multicolumn{1}{c}{Amortización}\\
+   \multicolumn{1}{c}{Título}  &  \multicolumn{1}{c}{de Compra (USD)}&  \multicolumn{1}{c}{Nominal (USD)}&        \multicolumn{1}{c}{(\%)}  &   \multicolumn{1}{c}{(días)}          &              \\
 \midrule
 \endhead
-
-\bottomrule
-\multicolumn{8}{r}{continúa...} \\
+\bottomrule \multicolumn{6}{c}{continúa...} \\
 \endfoot
-%\bottomrule
-\caption*{\scriptsize Fuente: Memorando Nro. IESS-DNAC-2021-0181-M de fecha 03 de marzo de 2021; \\
-Memorando Nro. IESS-DNAC-2021-0227-M de fecha 19 de marzo de 2021; \\
-Documento externo IESS-SDNGD-2021-1023-E del 08 de enero de 2021 de la empresa Holcim S.A.;\\
-Requerimiento de Información INFO-11012\\
-Elaborado: DAIE \\}
+\bottomrule
+\caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS y Balances Financieros del BIESS. \\
+  Elaborado: DAIE.}
 \endlastfoot
-\input{tablas/iess_demandantes.tex}
+  \input{tablas/iess_bonos_detalle_inv.tex}
 \end{longtable}
 }
-\end{landscape}
+
+\paragraph{Bonos del Estado por el 40\% del pago de las pensiones}
+
+El artículo 237 de la Ley de Seguridad Social establece: ``FINANCIAMIENTO.- En todos los casos
+comprendidos en este Capítulo, el IESS cubrirá el sesenta por ciento (60\%) de la pensión
+respectiva, y el Estado continuará financiando obligatoriamente el cuarenta por ciento (40\%)
+restante; pero, en cualquier circunstancia, el IESS otorgará la prestación completa”.
+
+Según los acuerdos suscritos entre funcionarios del IESS y del Ministerio de Finanzas el 12 de
+noviembre de 2012 y el 4 diciembre de 2012, se elaboran las actas de consolación provisional de la
+contribución del 40\% para el pago de pensiones y otras contribuciones del Estado al IESS desde el
+mes de octubre de 2012. Se comenzaron a transferir los Bonos del Estado emitidos por el Ministerio de
+Finanzas por concepto de la cancelación del 40\% de las pensiones y otras contribuciones del Estado
+al IESS desde el 15 de noviembre de 2012 hasta el 15 de abril de 2015, fecha de la última entrega de
+Bonos del Estado por este concepto. De esta manera el Estado canceló sus obligaciones por el 40\% de
+las pensiones y otras contribuciones con el IESS de los meses de octubre de 2012 hasta
+marzo de 2015. En total, se recibieron USD 1.994.219.449,82 en Bonos del Estado y todos estos bonos
+tienen una tasa de rendimiento anual igual a 7,5\% a 12 años. El detalle anual de las
+entrega de estos bonos se encuentra en la tabla \ref{tab:iess_RepBonos40_hist_inv}.
+
+\begin{table}[H]
+  \begin{center}
+  \caption{Detalle de los Bonos del Estado Ecuatoriano recibidos por el pago del 40\% de las pensiones 
+  y otras obligaciones que tiene el Estado con el IESS}
+    \label{tab:iess_RepBonos40_hist_inv}
+  {\fontsize{10}{12}\selectfont  
+  \begin{tabular}{crccc}
+    \toprule
+ \multicolumn{1}{c}{Año de}     &  \multicolumn{1}{c}{Monto}         &  \multicolumn{1}{c}{Tasa} &  \multicolumn{1}{c}{Plazo} &  \multicolumn{1}{c}{Año de}  \\         
+ \multicolumn{1}{c}{recepción}   &  \multicolumn{1}{c}{recibido (USD)}&  \multicolumn{1}{c}{(\%)} &   \multicolumn{1}{c}{(años)} &  \multicolumn{1}{c}{vencimiento}\\
+    \midrule
+        \input{tablas/iess_RepBonos40_hist_inv.tex}
+    \bottomrule
+  \end{tabular}
+   }
+  \caption*{\scriptsize Fuente: Actas de entrega de Bonos del Estado por el pago del 40\% de las 
+  pensiones \\
+   Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+% --------------------------------------------------------------------------------------------------
+% \subsubsection{Certificados de Tesorería del Estado Ecuatoriano}
+% 
+% \begin{figure}[H]
+% \centering
+% \caption{Evolución histórica del saldo remanente, en valor nominal, de las inversiones en Certificados de Tesorería del Fondo del Seguro IVM y su rendimiento promedio ponderado}
+% \label{fig:iess_bonos_hist_inv}
+% \includegraphics[scale=1.2]{graficos/iess_cetes_hist_inv.png}
+% \end{figure}
+% 
+% \begin{table}[H]
+%   \begin{center}
+%   \caption{Evolución de las inversiones del Fondo del Seguro IVM en Certificados de Tesorería}
+%   \label{tab:iess_cetes_hist_inv}
+%   \resizebox{\columnwidth}{!}{%
+%   \begin{tabular}{crccr}
+%     \toprule
+%   \multicolumn{1}{c}{Año} &  \multicolumn{1}{c}{Saldo} &  \multicolumn{1}{c}{Rendimiento Promedio} &  \multicolumn{1}{c}{Rendimiento Promedio}&  \multicolumn{1}{c}{Plazo} \\
+%   &  \multicolumn{1}{c}{Valor Nominal (USD)} &  \multicolumn{1}{c}{Ponderado (\%)} &  \multicolumn{1}{c}{Ponderado Real (\%)} &  \multicolumn{1}{c}{(días)}   \\
+%     \midrule
+%     \input{tablas/iess_cetes_hist_inv.tex}
+%     \bottomrule
+%   \end{tabular}
+%    }
+%   \caption*{\scriptsize Fuente: Tesoreria BIESS y Balances Financieros del BIESS. \\
+%     }
+%   \caption*{\scriptsize Fuente: Tesorería BIESS y Balances Financieros del BIESS. \\
+% 
+%   Elaborado: DAIE.}
+%   \end{center}
+% \end{table}
+% --------------------------------------------------------------------------------------------------
+\subsection{Inversiones no privativas con renta fija en el sector privado}
+
+% --------------------------------------------------------------------------------------------------
+\subsubsection{Inversiones en Obligaciones en renta fija}
+
+En la siguiente tabla \ref{tab:iess_obligaciones_hist_inv} se muestra la evolución histórica del
+saldo remanente de las inversiones en obligaciones en renta fija (barras), en valor nominal, y sus
+rendimientos (líneas) durante el período 2011 a 2020 
+\begin{table}[H]
+  \begin{center}
+  \caption{Evolución de las inversiones del Fondo del Seguro IVM en Obligaciones en renta fija}
+  \label{tab:iess_obligaciones_hist_inv}
+  {\fontsize{10}{12}\selectfont
+  \begin{tabular}{crccr}
+    \toprule
+  \multicolumn{1}{c}{Año} &  \multicolumn{1}{c}{Saldo} &  \multicolumn{1}{c}{Rendimiento Promedio} &  \multicolumn{1}{c}{Rendimiento Promedio}&  \multicolumn{1}{c}{Plazo}\\
+  &  \multicolumn{1}{c}{Valor Nominal (USD)} &  \multicolumn{1}{c}{Ponderado (\%)} &  \multicolumn{1}{c}{Ponderado Real (\%)} &  \multicolumn{1}{c}{(días)}\\
+    \midrule
+    \input{tablas/iess_obligaciones_hist_inv.tex}
+    \bottomrule
+  \end{tabular}
+   }
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS. \\
+  Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\caption{Evolución histórica nominal del saldo remanente de las inversiones en obligaciones 
+en renta fija del Fondo del Seguro IVM y su rendimiento promedio ponderado}
+\label{fig:iess_obligaciones_hist_inv}
+\includegraphics[scale=1]{graficos/iess_obligaciones_hist_inv.png}
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS.\\
+  Elaborado: DAIE.}
+\end{figure}
+
+El saldo en valor nominal decreció de USD 13.111.109,98 a diciembre de 2013 a USD 1.107.776,50 en
+diciembre de 2020, año en el cual obtuvo su mínimo valor invertido. Por último, la tasa de
+rendimiento promedio ponderada decreció de 9,09\% en 2011 a 8,31\% en el año 2020 El portafolio de inversiones en obligaciones en renta fija al corte (diciembre de 2020) se muestra
+el valor nominal de compra de estos bonos corporativos, el nombre del emisor, el saldo remanente, la
+tasa de cupón anual y el plazo remanente en días en la tabla \ref{tab:iess_oblig_detalle_inv}.
+\begin{table}[H]
+  \begin{center}
+  \caption{Detalle de las inversiones del Fondo del Seguro IVM en obligaciones en renta fija a 31 
+  de diciembre de 2020}
+  \label{tab:iess_oblig_detalle_inv}
+    \resizebox{\columnwidth}{!}{%
+   \begin{tabular}{lrrccc} 
+    \toprule
+ \multicolumn{1}{l}{Emisor:} & \multicolumn{1}{c}{Valor Nominal} & \multicolumn{1}{c}{Saldo Valor}    & \multicolumn{1}{c}{Tasa Cupón} & \multicolumn{1}{c}{Plazo Remanente} &  \multicolumn{1}{c}{Amortización}\\ 
+        & \multicolumn{1}{c}{de Compra (USD)} & \multicolumn{1}{c}{Nominal (USD)} & \multicolumn{1}{c}{(\%)}      & \multicolumn{1}{c}{(días)} &  \\
+    \midrule
+    \input{tablas/iess_oblig_detalle_inv.tex}
+    \bottomrule
+  \end{tabular}
+    }
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS. \\
+  Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+El portafolio de inversiones de este seguro solo se compone de bonos corporativos a renta fija de
+dos empresas en USD 1.107.776,50, lo cual no es representativo para el tamaño del portafolio de
+inversiones de este fondo; pero a la vez estas obligaciones tienen altos rendimientos y no están
+sujetas a la volatilidad generada por la especulación del mercado de valores, como lo que sucede en
+las inversiones de renta variable.
+
+% --------------------------------------------------------------------------------------------------
+\subsubsection{Inversiones en Titularizaciones}
+
+La Titularización es un mecanismo de financiamiento que consiste en: transformar activos o bienes,
+actuales o futuros, en valores negociables en el Mercado de Valores, para obtener liquidez en
+condiciones competitivas de mercado, con la consecuente reducción de los costos financieros.
+
+En la figura \ref{fig:iess_titularizaciones_hist_inv} y la tabla
+\ref{tab:iess_titularizaciones_hist_inv}, se muestra la evolución histórica del saldo (barras), en
+valor nominal, de las inversiones del Fondo del Seguro de IVM en titularizaciones a 31 diciembre de
+cada año y su rendimiento promedio ponderado (líneas) durante el período 2011 a 2020. 
+\begin{figure}[H]
+\centering
+\caption{Evolución histórica del saldo remanente, en valor nominal, de las inversiones en 
+titularizaciones en renta fija del Fondo del Seguro IVM y su rendimiento promedio ponderado}
+\label{fig:iess_titularizaciones_hist_inv}
+\includegraphics[scale=1]{graficos/iess_titularizaciones_hist_inv}
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS. \\
+  Elaborado: DAIE.}
+\end{figure}
+
+Se puede
+observar como el rendimiento promedio ponderado ha tendido a crecer en el tiempo de 7,69\% en el año
+2011 a 9,11\% en el 2017 y después sufrir un leve decrecimiento en el 2018 (8,41\%). En cambio, el
+saldo en valor nominal decreció de USD 86.408.377,65 en diciembre de 2012 a USD 1.402.651,31 a
+diciembre de 2020, años en los cuales se obtuvieron su máximo y mínimo, respectivamente. Esto implica
+que hubo una reducción de 98,38\% en 6 años 
+(entre 2012 a 2020).
+
+
+\begin{table}[H]
+  \begin{center}
+  \caption{Evolución de las inversiones del Fondo del Seguro IVM en titularizaciones en renta fija}
+  \label{tab:iess_titularizaciones_hist_inv}
+  {\fontsize{10}{12}\selectfont
+  \begin{tabular}{crccr}
+    \toprule
+ \multicolumn{1}{c}{Año} & \multicolumn{1}{c}{Saldo} & \multicolumn{1}{c}{Rendimiento Promedio} & \multicolumn{1}{c}{Rendimiento  Promedio}& \multicolumn{1}{c}{Plazo} \\
+  & \multicolumn{1}{c}{Valor Nominal (USD)} & \multicolumn{1}{c}{Ponderado (\%)} & \multicolumn{1}{c}{Ponderado Real (\%)} & \multicolumn{1}{c}{(días)}   \\
+    \midrule
+    \input{tablas/iess_titularizaciones_hist_inv.tex}
+    \bottomrule
+  \end{tabular}
+    }
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS. \\
+  Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+A continuación, se muestra el portafolio de inversiones en titularizaciones con fecha corte 31 de
+diciembre de 2020 En la tabla \ref{tab:iess_titularizaciones_hist_inv}, se
+presentan a detalle: el valor nominal de la Titularización, saldo al corte en valor nominal, la tasa
+cupón trimestral y el plazo remanente en días.
+\begin{table}[H]
+  \begin{center}
+  \caption{Detalle del portafolio de las inversiones del Fondo del Seguro IVM en titularizaciones 
+  en renta fija a 31 de diciembre de 2018}
+  \label{tab:iess_titularizaciones_hist_inv}
+  \resizebox{\columnwidth}{!}{%
+  \begin{tabular}{lrrcr}
+    \toprule
+ \multicolumn{1}{c}{Emisor:} & \multicolumn{1}{c}{Valor Nominal}& \multicolumn{1}{c}{Saldo Valor}   & \multicolumn{1}{c}{Tasa Cupón} & \multicolumn{1}{c}{Plazo Remanente} \\ 
+        & \multicolumn{1}{c}{de Compra (USD)} & \multicolumn{1}{c}{Nominal (USD)} &  \multicolumn{1}{c}{trimestral (\%)}   & \multicolumn{1}{c}{(días)}   \\
+    \midrule
+    \input{tablas/iess_titul_detalle_inv.tex}
+    \bottomrule
+  \end{tabular}
+    }
+    \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS. \\
+  Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+A 31 de diciembre de 2020, se encuentran invertidos USD 1.402.651,31, de los cuales la mayoría
+(75,67\%) se encuentra invertidos en titularizaciones de la empresa EDESA (USD 1.061.340,00) y lo
+restante en la empresa Inmobiliaria Volann; las primeras se vencen en febrero de 2020 y la segunda
+es una inversión a largo plazo a un poco más de 6 años.
+
+% --------------------------------------------------------------------------------------------------
+\subsection{Inversiones no privativas con renta variable}
+
+La renta variable es un tipo de inversión formada por todos aquellos activos financieros en los que
+la rentabilidad es incierta. Es decir, la rentabilidad no está garantizada ni la devolución del
+capital invertido ni la rentabilidad del activo. En la renta variable, al contrario que en la renta
+fija, no conocemos los flujos de caja que vamos a recibir por parte de la empresa. Incluso, puede
+que la rentabilidad sea negativa.
+
+Las inversiones no privativas en renta variable del Fondo del Seguro IVM pueden realizar las
+siguientes operaciones en fideicomisos mercantiles de inversión, inmobiliarios y  administración de
+acciones de cuotas  de  participación  en fondos de inversión.
+
+% --------------------------------------------------------------------------------------------------
+\subsubsection{Inversiones en fideicomisos y negocios fiduciarios}
+
+Se entiende por fideicomiso mercantil el contrato por el cual una o más personas llamadas
+constituyentes o fideicomitentes transfieren, de manera temporal e irrevocable, la propiedad de
+bienes muebles o inmuebles corporales o incorporales, que existen o se espera que existan, a un
+patrimonio autónomo, dotado de personalidad jurídica para que la sociedad administradora de fondos y
+fideicomisos, que es su fiduciaria y en tal calidad su representante legal, cumpla con las
+finalidades específicas instituidas en el contrato de constitución, bien en favor del propio
+constituyente o de un tercero llamado beneficiario.  En términos legales LA FIDUCIA MERCANTIL es
+definida como ``un negocio jurídico en virtud de la cual una persona, llamada fiduciante o
+fideicomiso, transmite uno o más bienes especificados a otra, llamado fiduciario, quien se obliga a
+administrarlos o enajenarlos para cumplir una finalidad determinada por el constituyente, en
+provecho de este o de un tercero llamado beneficiario o fideicomisario''.
+
+En la figura \ref{fig:iess_fidecomisos_hist_inv} y la tabla \ref{tab:iess_fidecomisos_hist_inv}, se
+muestra la evolución histórica de las inversiones en fideicomisos y negocios fiduciarios, en valor
+nominal, registrados en el portafolio de inversiones del Fondo del Seguro IVM y su rendimiento
+promedio ponderado durante el período 2011 a 2018, a diciembre de cada año. 
+
+\begin{figure}[H]
+\centering
+\caption{Evolución histórica del saldo remanente, en valor nominal, de las inversiones en fideicomisos y negocios fiduciarios del Seguro IVM y su rendimiento promedio ponderado}
+\label{fig:iess_fidecomisos_hist_inv}
+\includegraphics[scale=1]{graficos/iess_fidecomisos_hist_inv.png}
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS. \\
+  Elaborado: DAIE.}
+\end{figure}
+
+\begin{table}[H]
+  \begin{center}
+  \caption{Evolución de las inversiones del Fondo del Seguro IVM en Fideicomisos}
+  \label{tab:iess_fidecomisos_hist_inv}
+  {\fontsize{10}{12}\selectfont
+  \begin{tabular}{crcc}
+    \toprule
+ \multicolumn{1}{c}{Año} & \multicolumn{1}{c}{Saldo} & \multicolumn{1}{c}{Rendimiento Promedio} & \multicolumn{1}{c}{Rendimiento Promedio}\\
+  & \multicolumn{1}{c}{Valor Nominal (USD)} & \multicolumn{1}{c}{Ponderado (\%)} & \multicolumn{1}{c}{Ponderado Real (\%)}\\
+    \midrule
+    \input{tablas/iess_fidecomisos_hist_inv.tex}
+    \bottomrule
+  \end{tabular}
+    }
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS. \\
+  Elaborado: DAIE.}
+  \end{center}
+\end{table}
+Se puede observar como el
+rendimiento promedio ponderado, primeramente, ha tendido a crecer en el tiempo, de 7,9\% a 9,27\%
+entre los años 2011 y 2014, respectivamente, y, más tarde, ha tendido a decrecer de 9,27\% a 4,09\%
+entre los años 2014 y 2020, respectivamente. Su rendimiento promedio es 6,68\% durante el período
+2011 a 2020. El saldo remanente en valor nominal decreció de USD 223.166.171,75 en diciembre de 2012
+a USD 165.185.581,70 en diciembre de 2020 (decreció 25,98\%), año en el cual obtuvo su mínimo; en
+cambio, a diciembre de 2013, se registró su máximo.
+
+% --------------------------------------------------------------------------------------------------
+\subsubsection{Inversiones en acciones (en renta variable)}
+
+En la figura \ref{fig:iess_rv_hist_inv} y la tabla \ref{tab:iess_rv_hist_inv}, se muestra la
+evolución histórica del saldo remanente (valor del mercado de las acciones) de renta variable
+registrado en el portafolio de inversiones del Fondo del Seguro IVM y su rendimiento promedio
+ponderado durante el período 2011 a 2020, a diciembre de cada año. Se puede observar como el
+rendimiento promedio ponderado, primeramente, ha tendido a crecer de 9,73\% a 20,02\% entre los años
+2011 y 2013, respectivamente,  más tarde, ha tendido a decrecer de 20,02\% a -4,49\% entre los años
+2013 y 2016, respectivamente; y, finalmente, su rendimiento promedio ponderado creció de -4,49\% a
+8,32\% entre los años 2016 y 2020, respectivamente, lo cual muestra su alta volatilidad en el
+rendimiento de estas inversiones (desviación estándar igual a 7,54\% y promedio igual a 6,89\%). 
+
+El valor del mercado de las acciones evolucionó de la siguiente manera: primero, creció de USD
+56.278.303,00 en diciembre de 2011 a USD 121.413.740,00 en diciembre de 2015 (creció 115,76\%);
+luego, sucede una abrupta caída del fondo a USD 82.818.786,85 entre 2015 y 2016, respectivamente;
+por último, el valor de mercado de las acciones en renta variable se situó en USD 96.418.346,17 a
+diciembre de 2020. 
+\begin{figure}[H]
+\centering
+\caption{Evolución histórica del saldo remanente, en valor nominal, de las inversiones en renta 
+variable del Seguro IVM y su rendimiento promedio ponderado}
+\label{fig:iess_rv_hist_inv}
+\includegraphics[scale=1]{graficos/iess_rv_hist_inv.png}
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS. \\
+  Elaborado: DAIE.}
+\end{figure}
+
+\begin{table}[H]
+  \begin{center}
+  \caption{Evolución de las inversiones del Fondo del Seguro IVM en acciones de renta variable}
+  \label{tab:iess_rv_hist_inv}
+ {\fontsize{10}{12}\selectfont
+  \begin{tabular}{crrr}
+    \toprule
+ \multicolumn{1}{c}{Año} & \multicolumn{1}{c}{Saldo} & \multicolumn{1}{c}{Rendimiento Promedio} & \multicolumn{1}{c}{Rendimiento Promedio} \\
+  & \multicolumn{1}{c}{Valor Nominal (USD)} & \multicolumn{1}{c}{Ponderado (\%)} & \multicolumn{1}{c}{Ponderado Real (\%)} \\
+    \midrule
+    \input{tablas/iess_rv_hist_inv.tex}
+    \bottomrule
+  \end{tabular}
+    }
+  \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS. \\
+  Elaborado: DAIE.}
+  \end{center}
+\end{table}
+
+A 31 de diciembre del 2020, las inversiones de renta variable en acciones alcanzaron un valor de
+mercado por USD 96.418.346,17. El detalle de las acciones a 31 de diciembre de 2020 se encuentra la tabla
+\ref{tab:iess_acciones_inv}, en la cual se detalla: el valor nominal de una acción (es el valor
+total inicial o de emisión que tienen las acciones, es decir, es el resultado de multiplicar el
+número de acciones compradas por el valor  nominal de emisión por acción), valor efectivo total
+(valor de compra de la totalidad de las acciones), precio de compra por acción, número de acciones
+compradas, valor nominal por acción (es el valor inicial o de emisión que tienen las acciones, es
+decir, es el resultado de dividir el capital de una sociedad por el número de acciones de la misma),
+precio al corte (31 de diciembre de 2020) y valor de mercado de las acciones (es el precio al corte
+por acción multiplicado por el número de acciones).
+
+% El portafolio del Fondo del Seguro IVM en renta variable abarca acciones de trece (13) empresas,
+% entre las más importantes están: 8.539.599 acciones de HOLDING TONICORP con un valor en el mercado
+% igual a USD 38.428.195,50 (39,86\% de las inversiones en este instrumento financiero) y 8.404.623
+% acciones de LA FAVORITA con un valor en el mercado igual a USD 20.507.280,12 (21,27\% de las
+% inversiones en este instrumento financiero). 
+% 
+% Las inversiones en acciones que han producido rendimientos positivos al Fondo del Seguro IVM son:
+% HOLCIM, CONCLINA C.A., HOLDING TONICORP, SENDERO FORESTA S.A., SUPERDEPORTE S.A., SURPAPELCORP,
+% ALICOSTA BK HOLDIN y LA FAVORITA. En cambio, las acciones de CARLOS SOC. AG, INDUSTRIAS ALES C.A. y
+% SAN CARLOS SOC. AG han generado perdidas al portafolio.
+% 
+% \begin{landscape}
+% {\fontsize{10}{11}\selectfont
+% \begin{longtable}[H]{l*{7}{r}}
+% \caption{Detalle de las inversiones del Fondo del Seguro IVM en acciones en renta variable a 31 de diciembre de 2018} \\
+% \label{tab:iess_acciones_inv} \\
+% \toprule
+% \multicolumn{1}{l}{Nombre del emisor de las acciones:} & \multicolumn{1}{c}{Valor Nominal} & \multicolumn{1}{c}{Valor efectivo}  & \multicolumn{1}{c}{Precio de}    & \multicolumn{1}{c}{No.}                        & \multicolumn{1}{c}{Valor nominal}   & \multicolumn{1}{c}{Precio}      & \multicolumn{1}{c}{Valor de}\\
+%         &  \multicolumn{1}{c}{(USD)}        &    \multicolumn{1}{c}{total (USD)}& \multicolumn{1}{c}{compra (USD)} & \multicolumn{1}{c}{acciones} & \multicolumn{1}{c}{por acción (USD)}& \multicolumn{1}{c}{actual (USD)}& \multicolumn{1}{c}{mercado (USD)}\\
+% \midrule
+% \endfirsthead
+% 
+% \toprule
+% \multicolumn{1}{l}{Nombre del emisor de las acciones:} & \multicolumn{1}{c}{Valor Nominal} & \multicolumn{1}{c}{Valor efectivo}  & \multicolumn{1}{c}{Precio de}    & \multicolumn{1}{c}{No.}                        & \multicolumn{1}{c}{Valor nominal}   & \multicolumn{1}{c}{Precio}      & \multicolumn{1}{c}{Valor de}\\
+%         &  \multicolumn{1}{c}{(USD)}        &    \multicolumn{1}{c}{total (USD)}& \multicolumn{1}{c}{compra (USD)} & \multicolumn{1}{c}{acciones} & \multicolumn{1}{c}{por acción (USD)}& \multicolumn{1}{c}{actual (USD)}& \multicolumn{1}{c}{mercado (USD)}\\
+% \midrule
+% \endhead
+% \bottomrule \multicolumn{8}{c}{continúa...} \\
+% \endfoot
+% \bottomrule
+%   \caption*{\scriptsize Fuente: Subgerencia de Banca de Inversión - BIESS. \\
+%   Elaborado: DAIE.}
+% \endlastfoot
+% \input{tablas/iess_acciones_inv.tex}
+% \end{longtable}
+% }
+% \end{landscape}
+% --------------------------------------------------------------------------------------------------
+\subsection{Otras inversiones menores}
+El portafolio del Fondo del Seguro IVM también posee otras inversiones, además de las expuestas
+anteriormente, que se enumeran, a continuación:
+\begin{enumerate}[label=\arabic*.,topsep=0pt,itemsep=1ex,parsep=1ex,partopsep=1ex]
+\item Inversiones en Certificados de Tesorería por USD 60.904.987,20 y USD 50.044.114,59 a diciembre
+	de los años 2012 y 2014, respectivamente, a plazos remanentes iguales a 171 y 16 días para
+	el mismo período de tiempo, y rendimiento igual a 3\% y 1,27\% para los años citados.
+
+\item Inversiones en Papeles Comerciales por USD 1.200.000 a plazos de 249 días a 31 de diciembre de
+	2014 con rendimiento igual a 6,48\% y rendimiento real igual 2,71\%.
+
+\item Reportos por USD 117.000 a plazo de 68 días y rendimiento igual a 6,76\% a 31 de diciembre de 2014.
+\end{enumerate}
+
+%---------------------------------------------------------------------------------------------------
